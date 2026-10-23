@@ -1,10 +1,11 @@
 ﻿var examData = window.examData;
 var curriculum = window.curriculum;
 var lessonContent = window.lessonContent || {};
+var socialSupplement = window.socialSupplement || { items: [], historyCompleteness: {}, visuals: {} };
 
 var app = document.querySelector('#app');
 var modeTabs = document.querySelector('#modeTabs');
-var state = { mode: 'curriculum', year: '115', subject: 'all', type: 'all', query: '', unreadOnly: false, page: 1, curriculumPhase: '解題底層', curriculumPage: 1, examQuestion: 1, examGroup: null };
+var state = { mode: 'curriculum', year: '115', subject: 'all', type: 'all', query: '', unreadOnly: false, page: 1, curriculumPhase: '解題底層', curriculumPage: 1, examQuestion: 1, examGroup: null, supplementQuery: '', supplementCategory: 'all' };
 var questionState = Object.create(null);
 var practiceState = Object.create(null);
 var singleView = { lesson: 1, unit: 0, menuOpen: false };
@@ -76,14 +77,14 @@ function originalPracticeOptions(item, current) {
       mark = correct ? '✅ ' : (selected ? '❌ ' : '');
       feedback = '<small>' + esc(option.explanation) + '</small>';
     }
-    return '<button type="button" class="' + className + '" data-practice-option="' + esc(item.id) + '" data-option="' + esc(option.label) + '" data-multiple="' + (isMultiAnswer(item.answer) ? 'true' : 'false') + '"' + (submitted ? ' disabled' : '') + '><strong>' + mark + esc(option.label) + '</strong><span>' + esc(option.text) + '</span>' + feedback + '</button>';
+    return '<button type="button" class="' + className + '" data-practice-option="' + esc(item.id) + '" data-option="' + esc(option.label) + '" data-multiple="' + (isMultiAnswer(item.answer) ? 'true' : 'false') + '"' + (submitted ? ' disabled' : '') + '><span class="option-badge">' + mark + esc(option.label) + '</span><span class="option-text">' + esc(option.text) + '</span>' + feedback + '</button>';
   }).join('') + '</div>';
 }
 function originalPracticeCard(item, index) {
   var id = item.id || ('practice-' + index);
   var current = getState(practiceState, id);
   var isChoice = Boolean(item.options && item.options.length);
-  var answer = current.submitted ? '<div class="quiz-feedback answer-box"><p><strong>' + (sameAnswerSet(item.answer, current.selected) ? '✅ 作答正確' : '❌ 作答結果') + '</strong>｜官方答案：' + esc(item.answer) + '</p>' + practiceExplanation(item) + '<p><strong>本題帶走：</strong>' + esc(item.takeaway) + '</p></div>' : '';
+  var answer = current.submitted ? '<details class="practice-reference-answer" open><summary>顯示／收合參考答案與解析</summary><div class="quiz-feedback answer-box"><p><strong>' + (sameAnswerSet(item.answer, current.selected) ? '✅ 作答正確' : '❌ 作答結果') + '</strong>｜官方答案：' + esc(item.answer) + '</p>' + practiceExplanation(item) + '<p><strong>本題帶走：</strong>' + esc(item.takeaway) + '</p></div></details>' : '';
   var constructedInput = !isChoice ? '<label class="constructed-input"><span>作答區</span><textarea data-practice-input="' + esc(id) + '" rows="4" placeholder="完成作答後按「確認作答」">' + esc(current.selected || '') + '</textarea></label>' : '';
   var action = '<div class="quiz-actions"><button type="button" class="button" data-practice-submit="' + esc(id) + '"' + ((!isChoice && !hasSelection(current.selected)) || (isChoice && !hasSelection(current.selected)) || current.submitted ? ' disabled' : '') + '>' + (isChoice ? '確認答案' : '確認作答') + '</button>' + (current.submitted ? '<button type="button" class="button secondary" data-practice-reset="' + esc(id) + '">重新作答</button>' : '') + '</div>';
   return '<article class="original-question" id="' + esc(id) + '"><div class="exam-kicker">原創練習 ' + (index + 1) + '｜' + esc(item.type) + '</div><h4>' + esc(item.title) + '</h4><p class="material">' + esc(item.material) + '</p><p><strong>問題：</strong>' + esc(item.question) + '</p>' + originalPracticeOptions(item, current) + constructedInput + action + answer + '</article>';
@@ -100,9 +101,9 @@ function richLessonCard(item, spec) {
     return q ? questionCard(q) : '';
   }).join('');
   var cores = spec.core.map(function (core, index) {
-    return '<section class="rich-section"><h4>' + (index + 1) + '. ' + esc(core.name) + '</h4><p><strong>這是什麼：</strong>' + esc(core.what) + '</p><p><strong>題目怎麼包裝：</strong>' + esc(core.packaging) + '</p><p><strong>怎麼判斷：</strong>' + esc(core.judge) + '</p><p><strong>常見錯法：</strong>' + esc(core.mistake) + '</p><p><strong>小例子：</strong>' + esc(core.example) + '</p></section>';
+    return '<section class="rich-section beginner-core"><h4>' + (index + 1) + '. ' + esc(core.name) + '</h4><div class="beginner-grid"><div><strong>生活例子</strong><p>' + esc(core.example) + '</p></div><div><strong>白話解釋</strong><p>' + esc(core.what) + '</p></div><div><strong>正式名詞</strong><p>' + esc(core.name) + '</p></div><div><strong>學測怎麼考</strong><p>' + esc(core.packaging) + '</p></div><div><strong>判斷線索</strong><p>' + esc(core.judge) + '</p></div><div><strong>常見錯誤</strong><p>' + esc(core.mistake) + '</p></div></div></section>';
   }).join('');
-  var comparisons = spec.comparisons && spec.comparisons.length ? '<div class="table-wrap"><table class="comparison-table"><thead><tr><th>概念 A</th><th>概念 B</th><th>差別</th><th>判斷線索</th></tr></thead><tbody>' + spec.comparisons.map(function (row) { return '<tr><th>' + esc(row.left) + '</th><td>' + esc(row.right) + '</td><td>' + esc(row.distinction) + '</td><td>' + esc(row.cue) + '</td></tr>'; }).join('') + '</tbody></table></div>' : '';
+  var comparisons = spec.comparisons && spec.comparisons.length ? renderComparison(spec.comparisons) : '';
   return '<article class="lesson lesson-rich" id="lesson-' + item.lesson + '">' +
     '<div class="lesson-head"><div><span class="unit">第 ' + item.lesson + ' 課｜' + esc(spec.phase) + '</span><h2>' + esc(spec.title) + '</h2></div><label class="done"><input type="checkbox" data-complete="' + item.lesson + '"> 標記已學</label></div>' +
     '<section class="rich-section lesson-summary"><h3>30 秒先懂</h3>' + list(spec.summary) + '</section>' +
@@ -203,12 +204,40 @@ function examUnitForState() {
   return { units: units, index: index, unit: units[index] || { payload: { questions: [] } } };
 }
 function renderComparison(rows) {
-  return '<div class="table-wrap"><table class="comparison-table"><thead><tr><th>概念 A</th><th>概念 B</th><th>差別</th><th>判斷線索</th></tr></thead><tbody>' + rows.map(function (row) { return '<tr><th>' + esc(row.left) + '</th><td>' + esc(row.right) + '</td><td>' + esc(row.distinction) + '</td><td>' + esc(row.cue) + '</td></tr>'; }).join('') + '</tbody></table></div>';
+  return '<div class="comparison-cards" aria-label="概念比較卡片">' + rows.map(function (row) {
+    return '<article class="comparison-card"><div class="comparison-card-grid"><div class="comparison-card-side"><span class="comparison-label">概念 A</span><h4>' + esc(row.left) + '</h4></div><div class="comparison-card-side"><span class="comparison-label">概念 B</span><h4>' + esc(row.right) + '</h4></div></div><div class="comparison-judgment"><strong>判斷區</strong><p><b>差別：</b>' + esc(row.distinction) + '</p><p><b>判斷線索：</b>' + esc(row.cue) + '</p></div></article>';
+  }).join('') + '</div>';
+}
+function renderVisual(visual) {
+  if (!visual) return '';
+  return '<figure class="visual-teaching visual-' + esc(visual.kind || 'flow') + '"><figcaption><strong>' + esc(visual.title) + '</strong><span>' + esc(visual.note) + '</span></figcaption><div class="visual-flow">' + (visual.nodes || []).map(function (node, index) {
+    return (index ? '<span class="visual-arrow" aria-hidden="true">→</span>' : '') + '<div class="visual-node">' + esc(node) + '</div>';
+  }).join('') + '</div></figure>';
+}
+function lessonVisual(lessonNumber) {
+  var number = Number(lessonNumber);
+  var subject = number <= 4 ? 'civics' : (number >= 9 && number <= 14) ? 'civics' : (number <= 18) ? 'economics' : number <= 30 ? 'history' : 'geography';
+  return socialSupplement.visuals[subject] && socialSupplement.visuals[subject][number];
+}
+function historyFrame(lessonNumber) {
+  return socialSupplement.historyCompleteness[String(lessonNumber)] || socialSupplement.historyCompleteness[lessonNumber];
+}
+function renderSupplementary() {
+  var categories = { A: '公民', B: '經濟', C: '歷史', D: '地理' };
+  var query = String(state.supplementQuery || '').trim().toLowerCase();
+  var filtered = socialSupplement.items.filter(function (item) {
+    return (state.supplementCategory === 'all' || item.category === state.supplementCategory) && (!query || [item.term, item.plain, item.example, item.use].join(' ').toLowerCase().indexOf(query) >= 0);
+  });
+  var categoryOptions = '<option value="all">全部分類</option>' + Object.keys(categories).map(function (key) { return '<option value="' + key + '" ' + (state.supplementCategory === key ? 'selected' : '') + '>' + key + ' ' + categories[key] + '</option>'; }).join('');
+  return '<section id="supplementary" class="supplementary-toolbox"><div class="section-title"><span class="eyebrow">🧰 社會科補充教材</span><h2>考前工具箱</h2></div><p class="supplement-intro">不熟的概念可用分類、搜尋或快速跳轉複習；每個條目都附白話、例子與學測用法。</p><div class="supplement-controls"><label>搜尋概念<input type="search" data-supplement-search value="' + esc(state.supplementQuery || '') + '" placeholder="搜尋名詞、例子或考法"></label><label>分類<select data-supplement-category>' + categoryOptions + '</select></label><div class="supplement-jumps">' + Object.keys(categories).map(function (key) { return '<button type="button" class="button secondary" data-supplement-jump="' + key + '">' + key + ' ' + categories[key] + '</button>'; }).join('') + '</div></div><div class="supplement-items">' + (filtered.length ? filtered.map(function (item) { return '<article class="supplement-item" data-supplement-item><span class="badge">' + item.category + ' ' + categories[item.category] + '</span><h3>' + esc(item.term) + '</h3><p><b>白話：</b>' + esc(item.plain) + '</p><p><b>例子：</b>' + esc(item.example) + '</p><p><b>學測怎麼用：</b>' + esc(item.use) + '</p></article>'; }).join('') : '<p class="muted">找不到符合的補充條目。</p>') + '</div></section>';
+}
+function supplementarySection() {
+  return '<section class="supplementary-mode"><div class="section-title"><span class="eyebrow">🧰 社會科補充教材</span><h2>考前工具箱</h2></div><p class="curriculum-intro">這是獨立的補充教材頁面；可搜尋、分類與快速跳轉，返回時會保留上一個課綱或歷屆試題狀態。</p>' + renderSupplementary() + '</section>';
 }
 function renderSingleUnit(unit) {
   var payload = unit.payload || {};
-  if (unit.type === 'intro') return '<section class="single-unit-body intro-unit"><h3>先掌握這一課</h3>' + list(payload.summary) + '</section>';
-  if (unit.type === 'core') return '<section class="single-unit-body core-unit"><h3>這是什麼</h3>' + textBlock(payload.what) + '<h3>題目怎麼包裝</h3>' + textBlock(payload.packaging) + '<h3>怎麼判斷</h3>' + textBlock(payload.judge) + '<h3>常見錯法</h3>' + textBlock(payload.mistake) + '<h3>小例子</h3>' + textBlock(payload.example) + '</section>';
+  if (unit.type === 'intro') return '<section class="single-unit-body intro-unit"><h3>先掌握這一課</h3>' + list(payload.summary) + '<p class="beginner-hint">讀法：先看生活例子，再對照白話解釋、正式名詞、學測考法與判斷線索。</p></section>';
+  if (unit.type === 'core') return '<section class="single-unit-body core-unit beginner-core"><div class="beginner-grid"><div><strong>生活例子</strong>' + textBlock(payload.example) + '</div><div><strong>白話解釋</strong>' + textBlock(payload.what) + '</div><div><strong>正式名詞</strong><p class="course-text">' + esc(payload.name) + '</p></div><div><strong>學測怎麼考</strong>' + textBlock(payload.packaging) + '</div><div><strong>判斷線索</strong>' + textBlock(payload.judge) + '</div><div><strong>常見錯誤</strong>' + textBlock(payload.mistake) + '</div></div><a class="supplement-link" href="#mode=supplementary">不熟這個概念？看補充教材</a></section>';
   if (unit.id === 'comparisons') return '<section class="single-unit-body"><h3>必要概念比較</h3>' + renderComparison(payload.comparisons || []) + '</section>';
   if (unit.type === 'historicalQuestion' || unit.type === 'constructedPractice') {
     return '<section class="single-unit-body question-unit"><p class="unit-label">' + (unit.type === 'historicalQuestion' ? '歷屆真題精講（canonical 題庫）' : '非選整合／題組') + '</p>' + (payload.questions || []).map(questionCard).join('') + '</section>';
@@ -241,6 +270,25 @@ function parseLessonHash() {
   var legacyLesson = hash.match(/^#lesson=(\d+)&unit=(\d+)$/);
   if (legacyLesson) { setLessonUnit(Number(legacyLesson[1]), Number(legacyLesson[2]), true); return true; }
   return false;
+}
+function parseSupplementaryHash() {
+  if (location.hash.indexOf('#mode=supplementary') !== 0) return false;
+  var raw = location.hash.slice('#mode=supplementary'.length);
+  var params = new URLSearchParams(raw.charAt(0) === '&' ? raw.slice(1) : raw);
+  var category = params.get('category') || 'all';
+  state.mode = 'supplementary';
+  state.supplementQuery = params.get('q') || '';
+  state.supplementCategory = /^(?:all|A|B|C|D)$/.test(category) ? category : 'all';
+  return true;
+}
+function setSupplementaryState(query, category, replace) {
+  state.mode = 'supplementary';
+  state.supplementQuery = query || '';
+  state.supplementCategory = /^(?:all|A|B|C|D)$/.test(category || 'all') ? (category || 'all') : 'all';
+  var hash = '#mode=supplementary';
+  if (state.supplementQuery) hash += '&q=' + encodeURIComponent(state.supplementQuery);
+  if (state.supplementCategory !== 'all') hash += '&category=' + state.supplementCategory;
+  if (replace) history.replaceState(null, '', hash); else history.pushState(null, '', hash);
 }
 function setMode(mode, replace) {
   state.mode = mode === 'exam' ? 'exam' : 'curriculum';
@@ -288,7 +336,9 @@ function curriculumSection() {
   var unitList = units.map(function (unit, index) { return '<option value="' + index + '" ' + (index === singleView.unit ? 'selected' : '') + '>' + (index + 1) + '. ' + esc(unit.title) + '</option>'; }).join('');
   var refs = (spec.officialRefs || []).slice(0, 6).map(function (ref) { return '<a href="#mode=exam&year=' + ref[0] + '&question=' + ref[1] + '" data-cross-exam="' + ref[0] + '-q' + ref[1] + '">' + ref[0] + ' 第 ' + ref[1] + ' 題</a>'; }).join('、');
   var related = refs ? '<section class="related-exams"><h3>相關歷屆題</h3><p>' + refs + '</p></section>' : '';
-  return '<section id="curriculum" class="curriculum single-view-section"><div class="section-title"><span class="eyebrow">🧠 課綱複習</span><h2>36 課單元閱讀</h2></div><p class="curriculum-intro">一次只讀一個學習單位；題組材料、圖表與題目會維持在同一單元，答案仍依原本的送出後揭露流程。</p>' + related + '<div class="single-view-shell"><aside class="single-view-sidebar ' + (singleView.menuOpen ? 'open' : '') + '"><button type="button" class="single-view-menu" data-sidebar-toggle>☰ 課綱目錄</button><nav aria-label="36 課課綱目錄">' + sidebar + '</nav></aside><main class="single-view-main"><header class="single-view-header"><div><span class="unit">第 ' + currentItem.lesson + ' 課｜' + esc(spec.phase || currentItem.phase) + '</span><h2>' + esc(spec.title || currentItem.title) + '</h2></div><div class="single-view-progress"><strong>Lesson ' + currentItem.lesson + '｜Unit ' + (singleView.unit + 1) + ' / ' + units.length + '</strong><span>' + percent + '%</span><div class="progress-track"><i style="width:' + percent + '%"></i></div></div></header><nav class="single-unit-nav" aria-label="課內單元導覽"><button type="button" class="button secondary" data-unit-prev ' + (singleView.unit === 0 ? 'disabled' : '') + '>‹ 上一單元</button><label>目前單元<select data-unit-select>' + unitList + '</select></label><button type="button" class="button secondary" data-unit-next ' + (singleView.unit === units.length - 1 ? 'disabled' : '') + '>下一單元 ›</button></nav><article class="single-view-unit" id="lesson-' + currentItem.lesson + '-unit-' + singleView.unit + '"><h2>' + esc(currentUnit.title) + '</h2>' + renderSingleUnit(currentUnit) + '</article><footer class="single-unit-footer"><button type="button" class="button secondary" data-unit-prev ' + (singleView.unit === 0 ? 'disabled' : '') + '>‹ 上一單元</button><span>第 ' + (singleView.unit + 1) + ' / ' + units.length + ' 單元</span><button type="button" class="button" data-unit-next ' + (singleView.unit === units.length - 1 ? 'disabled' : '') + '>下一單元 ›</button></footer></main></div></section>';
+  var frame = historyFrame(currentItem.lesson);
+  var frameHtml = frame ? '<section class="beginner-history-frame"><h3>這課的五格定位</h3><div class="beginner-grid"><div><strong>何時</strong><p>' + esc(frame.when) + '</p></div><div><strong>有誰</strong><p>' + esc(frame.who) + '</p></div><div><strong>為什麼</strong><p>' + esc(frame.why) + '</p></div><div><strong>發生什麼</strong><p>' + esc(frame.what) + '</p></div><div><strong>結果／影響</strong><p>' + esc(frame.result) + '</p></div></div></section>' : '';
+  return '<section id="curriculum" class="curriculum single-view-section"><div class="section-title"><span class="eyebrow">🧠 課綱複習</span><h2>36 課單元閱讀</h2></div><p class="curriculum-intro">一次只讀一個學習單位；題組材料、圖表與題目會維持在同一單元，答案仍依原本的送出後揭露流程。</p>' + related + '<div class="single-view-shell"><aside class="single-view-sidebar ' + (singleView.menuOpen ? 'open' : '') + '"><button type="button" class="single-view-menu" data-sidebar-toggle>☰ 課綱目錄</button><nav aria-label="36 課課綱目錄">' + sidebar + '</nav></aside><main class="single-view-main"><header class="single-view-header"><div><span class="unit">第 ' + currentItem.lesson + ' 課｜' + esc(spec.phase || currentItem.phase) + '</span><h2>' + esc(spec.title || currentItem.title) + '</h2></div><div class="single-view-progress"><strong>Lesson ' + currentItem.lesson + '｜Unit ' + (singleView.unit + 1) + ' / ' + units.length + '</strong><span>' + percent + '%</span><div class="progress-track"><i style="width:' + percent + '%"></i></div></div></header><nav class="single-unit-nav" aria-label="課內單元導覽"><label>目前單元<select data-unit-select>' + unitList + '</select></label></nav><article class="single-view-unit" id="lesson-' + currentItem.lesson + '-unit-' + singleView.unit + '"><h2>' + esc(currentUnit.title) + '</h2>' + frameHtml + renderVisual(lessonVisual(currentItem.lesson)) + renderSingleUnit(currentUnit) + '</article><footer class="single-unit-footer"><button type="button" class="button secondary" data-unit-prev ' + (singleView.unit === 0 ? 'disabled' : '') + '>‹ 上一單元</button><span>第 ' + (singleView.unit + 1) + ' / ' + units.length + ' 單元</span><button type="button" class="button" data-unit-next ' + (singleView.unit === units.length - 1 ? 'disabled' : '') + '>下一單元 ›</button></footer></main></div></section>';
 }
 function studyOverview(data) {
   var subjects = ['公民', '歷史', '地理', '跨科'];
@@ -343,7 +393,7 @@ function questionChoiceOptions(question, current) {
       feedback = '<small>' + esc(option.explanation) + (option.errorType ? '（' + esc(option.errorType) + '）' : '') + '</small>';
     }
     var image = question.imageOptions && question.imageOptions[option.label] ? '<img src="' + esc(question.imageOptions[option.label]) + '" alt="' + esc(question.year + '年第' + question.number + '題選項' + option.label) + '" style="display:block;max-width:100%;height:auto;margin:10px 0;border:1px solid #d7dee8;border-radius:8px">' : '';
-    return '<button type="button" class="' + className + '" data-quiz-option="' + esc(question.year + '-q' + question.number) + '" data-option="' + esc(option.label) + '" data-multiple="' + (isMultiAnswer(question.officialAnswer) ? 'true' : 'false') + '"' + (submitted ? ' disabled' : '') + '><strong>' + mark + esc(option.label) + '</strong>' + image + '<span>' + esc(option.text) + '</span>' + feedback + '</button>';
+    return '<button type="button" class="' + className + '" data-quiz-option="' + esc(question.year + '-q' + question.number) + '" data-option="' + esc(option.label) + '" data-multiple="' + (isMultiAnswer(question.officialAnswer) ? 'true' : 'false') + '"' + (submitted ? ' disabled' : '') + '><span class="option-badge">' + mark + esc(option.label) + '</span>' + image + '<span class="option-text">' + esc(option.text) + '</span>' + feedback + '</button>';
   }).join('') + '</div>';
 }
 function questionCard(question) {
@@ -386,7 +436,8 @@ function filteredQuestions(data) {
 }
 function renderModeSwitch() {
   modeTabs.innerHTML = '<a class="mode-tab ' + (state.mode === 'curriculum' ? 'active' : '') + '" aria-current="' + (state.mode === 'curriculum' ? 'page' : 'false') + '" href="#mode=curriculum&lesson=' + singleView.lesson + '&unit=' + singleView.unit + '" data-mode="curriculum">課綱複習</a>' +
-    '<a class="mode-tab ' + (state.mode === 'exam' ? 'active' : '') + '" aria-current="' + (state.mode === 'exam' ? 'page' : 'false') + '" href="#mode=exam&year=' + state.year + '&group=' + (state.examGroup == null ? 0 : state.examGroup) + '&question=' + state.examQuestion + '" data-mode="exam">歷屆試題</a>';
+    '<a class="mode-tab ' + (state.mode === 'exam' ? 'active' : '') + '" aria-current="' + (state.mode === 'exam' ? 'page' : 'false') + '" href="#mode=exam&year=' + state.year + '&group=' + (state.examGroup == null ? 0 : state.examGroup) + '&question=' + state.examQuestion + '" data-mode="exam">歷屆試題</a>' +
+    '<a class="mode-tab ' + (state.mode === 'supplementary' ? 'active' : '') + '" aria-current="' + (state.mode === 'supplementary' ? 'page' : 'false') + '" href="#mode=supplementary" data-mode="supplementary">補充教材</a>';
 }
 function examSidebar() {
   return ['115', '114', '113', '112', '111'].map(function (year) {
@@ -414,6 +465,7 @@ function examSection() {
 function render() {
   renderModeSwitch();
   if (state.mode === 'exam') app.innerHTML = examSection();
+  else if (state.mode === 'supplementary') app.innerHTML = supplementarySection();
   else app.innerHTML = curriculumSection();
   bind();
 }
@@ -425,6 +477,7 @@ function bind() {
     link.addEventListener('click', function (event) {
       event.preventDefault();
       if (link.dataset.mode === 'exam') setExamState(state.year, state.examQuestion || 1, state.examGroup, false);
+      else if (link.dataset.mode === 'supplementary') setSupplementaryState(state.supplementQuery, state.supplementCategory, false);
       else setLessonUnit(singleView.lesson, singleView.unit, false);
       render();
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -473,6 +526,25 @@ function bind() {
     setLessonUnit(singleView.lesson, Number(event.target.value), false);
     render();
     document.querySelector('#curriculum')?.scrollIntoView({ block: 'start' });
+  });
+  document.querySelector('[data-supplement-search]')?.addEventListener('input', function (event) {
+    state.supplementQuery = event.target.value;
+    if (state.mode === 'supplementary') setSupplementaryState(state.supplementQuery, state.supplementCategory, true);
+    render();
+  });
+  document.querySelector('[data-supplement-category]')?.addEventListener('change', function (event) {
+    state.supplementCategory = event.target.value;
+    if (state.mode === 'supplementary') setSupplementaryState(state.supplementQuery, state.supplementCategory, true);
+    render();
+  });
+  document.querySelectorAll('[data-supplement-jump]').forEach(function (button) {
+    button.addEventListener('click', function () {
+      state.supplementCategory = button.dataset.supplementJump;
+      state.supplementQuery = '';
+      if (state.mode === 'supplementary') setSupplementaryState('', state.supplementCategory, true);
+      render();
+      document.querySelector('#supplementary')?.scrollIntoView({ block: 'start' });
+    });
   });
   document.querySelectorAll('[data-unit-prev]').forEach(function (button) {
     button.addEventListener('click', function () {
@@ -607,16 +679,29 @@ document.querySelector('#themeToggle').addEventListener('click', function () {
   applyTheme(currentTheme === 'dark' ? 'light' : 'dark');
   localStorage.setItem('social-theme', currentTheme);
 });
-document.querySelector('#quickMode').addEventListener('click', function () { document.body.classList.toggle('quick-mode'); });
+document.querySelector('#quickMode').addEventListener('click', function () {
+  document.body.classList.toggle('quick-mode');
+  if (state.mode === 'curriculum') {
+    var quickUnits = buildLessonUnits(singleView.lesson);
+    var quickIndex = quickUnits.findIndex(function (unit) { return unit.id === 'final-review'; });
+    if (quickIndex >= 0) {
+      setLessonUnit(singleView.lesson, quickIndex, false);
+      render();
+      document.querySelector('.single-view-unit')?.scrollIntoView({ block: 'start' });
+    }
+  } else {
+    document.querySelector('.exam-mode')?.scrollIntoView({ block: 'start' });
+  }
+});
 document.querySelector('#printPage').addEventListener('click', function () { window.print(); });
 document.querySelector('#backTop').addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
 window.addEventListener('hashchange', function () {
-  if (parseExamHash() || parseLessonHash()) { render(); return; }
+  if (parseSupplementaryHash() || parseExamHash() || parseLessonHash()) { render(); return; }
   setLessonUnit(1, 0, true);
   render();
 });
 window.addEventListener('popstate', function () {
-  if (parseExamHash() || parseLessonHash()) render();
+  if (parseSupplementaryHash() || parseExamHash() || parseLessonHash()) render();
 });
-if (!parseExamHash() && !parseLessonHash()) setLessonUnit(1, 0, true);
+if (!parseSupplementaryHash() && !parseExamHash() && !parseLessonHash()) setLessonUnit(1, 0, true);
 render();

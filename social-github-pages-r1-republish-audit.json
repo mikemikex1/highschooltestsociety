@@ -1,0 +1,73 @@
+{
+  "schema": "social-github-pages-r1-republish-audit/v1",
+  "repository": "https://github.com/mikemikex1/highschooltestsociety.git",
+  "branch": "main",
+  "remote": "origin",
+  "pagesSource": "main / docs",
+  "docsSync": "PASS",
+  "docsSourceParity": "PASS",
+  "requiredParity": {
+    "index.html": "MATCH",
+    "styles.css": "MATCH",
+    "app.js": "MATCH",
+    "data/supplementary.js": "MATCH",
+    "data/years.js": "MATCH",
+    "data/constructed-response.js": "MATCH",
+    "data/curriculum.js": "MATCH",
+    "data/lesson-content.js": "MATCH"
+  },
+  "docsRuntime": {
+    "curriculum": "PASS",
+    "exam": "PASS",
+    "supplementaryDirectRoute": "PASS",
+    "supplementaryQueryRestore": "PASS",
+    "l14CivicsVisual": "PASS",
+    "lightTheme": "PASS",
+    "darkTheme": "PASS",
+    "mobile390": {
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "pass": true
+    },
+    "desktop1440": {
+      "scrollWidth": 1425,
+      "clientWidth": 1425,
+      "pass": true
+    }
+  },
+  "answerHiding": {
+    "choicePreSubmitLeaks": 0,
+    "constructedPreConfirmLeaks": 0
+  },
+  "frozenCounts": {
+    "lessons": 36,
+    "official": 326,
+    "choice": 275,
+    "constructed": 51,
+    "practice": 252,
+    "approvedImport": 72,
+    "gold": 12,
+    "legacyP7": 0,
+    "officialAnswerMismatch": 0
+  },
+  "strictIntegrity": {
+    "currentRun": "PASS",
+    "currentGateWeakening": 0,
+    "manifestMismatch": 0,
+    "freezeMismatch": 0,
+    "historicalIncidentPreserved": true
+  },
+  "git": {
+    "commit": "release commit recorded as final HEAD",
+    "push": "pending"
+  },
+  "public": {
+    "url": "https://mikemikex1.github.io/highschooltestsociety/",
+    "rootReachable": "pending",
+    "supplementaryReachable": "pending",
+    "l14VisualReachable": "pending",
+    "basicResourceSmoke": "pending",
+    "independentQa5B": "not run"
+  },
+  "offlineVersion": false
+}
