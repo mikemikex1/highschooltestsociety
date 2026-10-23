@@ -1,0 +1,45 @@
+{
+  "schema": "social-audit-integrity-recovery-r3-dev/v1",
+  "verifierBaselineWritesRemoved": true,
+  "verifierFreezeWritesRemoved": true,
+  "hardcodedStatusClaimsRemoved": true,
+  "manifestReadOnlyAfterRun": true,
+  "freezeReadOnlyAfterRun": true,
+  "manifestHashMismatches": 0,
+  "freezeHashMismatches": 0,
+  "gateWeakeningDetected": 0,
+  "explicitMaintenance": {
+    "script": "update-strict-integrity-freeze.cjs",
+    "ranSeparately": true,
+    "invokedByVerifier": false,
+    "target": "qa-strict-integrity.cjs"
+  },
+  "readOnlyProof": {
+    "manifestBefore": "656D62F70ABBBA5EDAEA5ECD2FDD6EEB94C73C68EC7E242BD04587946E4F3069",
+    "manifestAfter": "656D62F70ABBBA5EDAEA5ECD2FDD6EEB94C73C68EC7E242BD04587946E4F3069",
+    "freezeBefore": "16976E44B1802F49A44291AFA1C2425B55370BF88CEFE1A1924705D4FFF24061",
+    "freezeAfter": "16976E44B1802F49A44291AFA1C2425B55370BF88CEFE1A1924705D4FFF24061",
+    "manifestMutatedByVerifier": false,
+    "freezeMutatedByVerifier": false
+  },
+  "strictRegression": {
+    "historicalIncidentPreserved": true,
+    "strictBaseline": "PASS",
+    "frozenHashes": "PASS",
+    "goldStrict": "PASS",
+    "answerAuthority": "PASS",
+    "preSubmitLeaks": 0,
+    "singleView": "PASS",
+    "approvedImport": 72,
+    "approvedImportExpected": 72,
+    "fieldDrift": 0,
+    "goldImport": 12,
+    "goldImportExpected": 12,
+    "legacyP7": 0,
+    "official": 326,
+    "choice": 275,
+    "constructed": 51,
+    "practice": 252
+  },
+  "verdict": "PASS"
+}

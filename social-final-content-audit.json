@@ -1,0 +1,61 @@
+{
+  "report": "SOCIAL_FINAL_CONTENT_AUDIT",
+  "status": "PASS",
+  "readOnly": true,
+  "coverage": {
+    "lessons": {"matched": 36, "expected": 36},
+    "official": {"matched": 326, "expected": 326},
+    "choice": {"matched": 275, "expected": 275},
+    "constructed": {"matched": 51, "expected": 51},
+    "practice": {"matched": 252, "expected": 252},
+    "approvedImport": {"matched": 72, "expected": 72},
+    "fieldDrift": 0,
+    "goldImport": {"matched": 12, "expected": 12},
+    "legacyP7": 0,
+    "preSubmitLeaks": 0
+  },
+  "officialAuthority": {
+    "missingStems": 0,
+    "missingAnswers": 0,
+    "answerMismatches": 0,
+    "malformedOptions": 0,
+    "brokenSourceRefs": 0,
+    "constructedUnresolved": 0
+  },
+  "contentGates": {
+    "gold": "PASS",
+    "goldDimensionsBelow85": 0,
+    "commandRubricMismatches": 0,
+    "weakAcceptableAnswerVariants": 0,
+    "materialAnswerConflicts": 0,
+    "answerExplanationConflicts": 0,
+    "unsupportedEvidence": 0,
+    "unsupportedCausalClaims": 0,
+    "multipleValidAnswers": 0,
+    "highRiskSemanticTemplates": 0
+  },
+  "runtime": {
+    "authority": "PASS",
+    "legacyRuntimeOverride": 0,
+    "singleView": "PASS",
+    "hashRestore": "PASS",
+    "prevNext": "PASS",
+    "submitReset": "PASS",
+    "atomicGroups": "PASS"
+  },
+  "integrity": {
+    "manifestMismatch": 0,
+    "freezeMismatch": 0,
+    "currentGateWeakening": 0,
+    "auditIntegrity": "PASS",
+    "historicalIncidentPreserved": true
+  },
+  "regression": {
+    "official": 326,
+    "choice": 275,
+    "constructed": 51,
+    "practice": 252,
+    "status": "PASS"
+  },
+  "blockers": []
+}

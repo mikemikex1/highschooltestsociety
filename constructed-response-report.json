@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-10-23T08:20:03.227Z",
+  "status": "PASS",
+  "perYear": {
+    "111": {
+      "expected": 10,
+      "actual": 10,
+      "complete": 10,
+      "needsReview": 0
+    },
+    "112": {
+      "expected": 10,
+      "actual": 10,
+      "complete": 10,
+      "needsReview": 0
+    },
+    "113": {
+      "expected": 10,
+      "actual": 10,
+      "complete": 10,
+      "needsReview": 0
+    },
+    "114": {
+      "expected": 10,
+      "actual": 10,
+      "complete": 10,
+      "needsReview": 0
+    },
+    "115": {
+      "expected": 11,
+      "actual": 11,
+      "complete": 11,
+      "needsReview": 0
+    }
+  },
+  "total": {
+    "expected": 51,
+    "actual": 51,
+    "complete": 51
+  },
+  "errors": {
+    "missingFields": [],
+    "missingSourceRefs": [],
+    "imageDrawing": [],
+    "partialCredit": [],
+    "zeroCredit": [],
+    "needsReview": [],
+    "placeholderText": [],
+    "duplicateQuestions": []
+  },
+  "regression": {
+    "counts": {
+      "111": 67,
+      "112": 66,
+      "113": 64,
+      "114": 64,
+      "115": 65
+    },
+    "questionCount": 326,
+    "expectedCounts": {
+      "111": 67,
+      "112": 66,
+      "113": 64,
+      "114": 64,
+      "115": 65
+    },
+    "expectedTotals": 326,
+    "pass": true
+  }
+}

@@ -1,0 +1,1210 @@
+{
+  "generatedAt": "2026-10-22T15:55:22.131Z",
+  "summary": {
+    "lessons": 36,
+    "passed": 36,
+    "practiceCount": 252,
+    "mappingWeak": 0,
+    "practiceWeak": 0,
+    "semanticRisks": 0
+  },
+  "batches": [
+    {
+      "name": "Batch A",
+      "lessons": "1–4",
+      "status": "PASS",
+      "changes": "重寫題型配置、限制語、圖表單位與非選採點教學；每課保留 7 題原創練習。"
+    },
+    {
+      "name": "Batch B",
+      "lessons": "5–14",
+      "status": "PASS",
+      "changes": "重寫社會差異、文化、規範、媒體、民主、憲政、選舉、基本權、法律與民法內容。"
+    },
+    {
+      "name": "Batch C",
+      "lessons": "15–18",
+      "status": "PASS",
+      "changes": "補上機會成本、供需曲線移動、GDP 名實差異、比較利益與全球勞動分工推導。"
+    },
+    {
+      "name": "Batch D",
+      "lessons": "19–30",
+      "status": "PASS",
+      "changes": "補上史料限制、史家觀點、臺灣史、中國史與世界史的時間、主體、因果及制度脈絡。"
+    },
+    {
+      "name": "Batch E",
+      "lessons": "31–36",
+      "status": "PASS",
+      "changes": "補上等高線、水文災害、人口遷移、區位、地緣政治與 GIS 空間分析。"
+    }
+  ],
+  "mappingFixes": [
+    {
+      "lesson": 1,
+      "year": 115,
+      "number": 1,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "115 年第 1 題：題幹直接涉及 題型、時間、材料，可用來練習本課的 題型配置 與 時間管理。"
+    },
+    {
+      "lesson": 1,
+      "year": 112,
+      "number": 1,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 1 題：題幹直接涉及 題型、時間、材料，可用來練習本課的 題型配置 與 時間管理。"
+    },
+    {
+      "lesson": 2,
+      "year": 115,
+      "number": 3,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "115 年第 3 題：題幹直接涉及 限制語、否定、因果，可用來練習本課的 問句結構 與 比較基準。"
+    },
+    {
+      "lesson": 2,
+      "year": 114,
+      "number": 1,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "114 年第 1 題：題幹直接涉及 限制語、否定、因果，可用來練習本課的 問句結構 與 比較基準。"
+    },
+    {
+      "lesson": 3,
+      "year": 113,
+      "number": 29,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "113 年第 29 題：題幹直接涉及 圖表、單位、分母，可用來練習本課的 座標與單位 與 水準與變化。"
+    },
+    {
+      "lesson": 3,
+      "year": 114,
+      "number": 53,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "114 年第 53 題：題幹直接涉及 圖表、單位、分母，可用來練習本課的 座標與單位 與 水準與變化。"
+    },
+    {
+      "lesson": 4,
+      "year": 115,
+      "number": 42,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "115 年第 42 題：題幹直接涉及 命令詞、採分點、證據，可用來練習本課的 命令詞 與 證據與概念。"
+    },
+    {
+      "lesson": 4,
+      "year": 112,
+      "number": 47,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 47 題：題幹直接涉及 命令詞、採分點、證據，可用來練習本課的 命令詞 與 證據與概念。"
+    },
+    {
+      "lesson": 5,
+      "year": 115,
+      "number": 1,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "115 年第 1 題：題幹直接涉及 形式平等、實質平等、結構性不平等，可用來練習本課的 形式平等 與 實質平等。"
+    },
+    {
+      "lesson": 5,
+      "year": 114,
+      "number": 1,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "114 年第 1 題：題幹直接涉及 形式平等、實質平等、結構性不平等，可用來練習本課的 形式平等 與 實質平等。"
+    },
+    {
+      "lesson": 6,
+      "year": 111,
+      "number": 22,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 22 題：題幹直接涉及 多元文化、文化權、族群認同，可用來練習本課的 文化權 與 多元文化與同化。"
+    },
+    {
+      "lesson": 6,
+      "year": 111,
+      "number": 62,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 62 題：題幹直接涉及 多元文化、文化權、族群認同，可用來練習本課的 文化權 與 多元文化與同化。"
+    },
+    {
+      "lesson": 7,
+      "year": 113,
+      "number": 59,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "113 年第 59 題：題幹直接涉及 社會規範、性別角色、家庭，可用來練習本課的 社會規範 與 性別角色。"
+    },
+    {
+      "lesson": 7,
+      "year": 111,
+      "number": 22,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 22 題：題幹直接涉及 社會規範、性別角色、家庭，可用來練習本課的 社會規範 與 性別角色。"
+    },
+    {
+      "lesson": 8,
+      "year": 112,
+      "number": 60,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 60 題：題幹直接涉及 媒體近用、媒體再現、同溫層，可用來練習本課的 媒體近用 與 媒體再現。"
+    },
+    {
+      "lesson": 8,
+      "year": 112,
+      "number": 45,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 45 題：題幹直接涉及 媒體近用、媒體再現、同溫層，可用來練習本課的 媒體近用 與 媒體再現。"
+    },
+    {
+      "lesson": 9,
+      "year": 112,
+      "number": 44,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 44 題：題幹直接涉及 民主政治、公民參與、多數決，可用來練習本課的 民主政治 與 公民參與。"
+    },
+    {
+      "lesson": 9,
+      "year": 115,
+      "number": 3,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "115 年第 3 題：題幹直接涉及 民主政治、公民參與、多數決，可用來練習本課的 民主政治 與 公民參與。"
+    },
+    {
+      "lesson": 10,
+      "year": 111,
+      "number": 41,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 41 題：題幹直接涉及 憲政、分權、制衡，可用來練習本課的 分權 與 制衡工具。"
+    },
+    {
+      "lesson": 10,
+      "year": 113,
+      "number": 37,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "113 年第 37 題：題幹直接涉及 憲政、分權、制衡，可用來練習本課的 分權 與 制衡工具。"
+    },
+    {
+      "lesson": 11,
+      "year": 111,
+      "number": 49,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 49 題：題幹直接涉及 選舉、比例代表、單一選區，可用來練習本課的 選舉制度 與 代表性與治理。"
+    },
+    {
+      "lesson": 11,
+      "year": 111,
+      "number": 62,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 62 題：題幹直接涉及 選舉、比例代表、單一選區，可用來練習本課的 選舉制度 與 代表性與治理。"
+    },
+    {
+      "lesson": 12,
+      "year": 113,
+      "number": 46,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "113 年第 46 題：題幹直接涉及 基本權、自由權、平等權，可用來練習本課的 基本權分類 與 限制基本權。"
+    },
+    {
+      "lesson": 12,
+      "year": 112,
+      "number": 28,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 28 題：題幹直接涉及 基本權、自由權、平等權，可用來練習本課的 基本權分類 與 限制基本權。"
+    },
+    {
+      "lesson": 13,
+      "year": 115,
+      "number": 4,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "115 年第 4 題：題幹直接涉及 罪刑法定、無罪推定、不自證己罪，可用來練習本課的 罪刑法定 與 無罪推定與不自證己罪。"
+    },
+    {
+      "lesson": 13,
+      "year": 111,
+      "number": 65,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 65 題：題幹直接涉及 罪刑法定、無罪推定、不自證己罪，可用來練習本課的 罪刑法定 與 無罪推定與不自證己罪。"
+    },
+    {
+      "lesson": 14,
+      "year": 111,
+      "number": 3,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 3 題：題幹直接涉及 民法、契約、繼承，可用來練習本課的 契約 與 財產與侵權。"
+    },
+    {
+      "lesson": 14,
+      "year": 112,
+      "number": 2,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 2 題：題幹直接涉及 民法、契約、繼承，可用來練習本課的 契約 與 財產與侵權。"
+    },
+    {
+      "lesson": 15,
+      "year": 112,
+      "number": 29,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 29 題：題幹直接涉及 機會成本、誘因、邊際，可用來練習本課的 機會成本 與 誘因與邊際。"
+    },
+    {
+      "lesson": 15,
+      "year": 115,
+      "number": 41,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "115 年第 41 題：題幹直接涉及 機會成本、誘因、邊際，可用來練習本課的 機會成本 與 誘因與邊際。"
+    },
+    {
+      "lesson": 16,
+      "year": 113,
+      "number": 3,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "113 年第 3 題：題幹直接涉及 需求、供給、均衡，可用來練習本課的 需求與需求量 與 供給與均衡。"
+    },
+    {
+      "lesson": 16,
+      "year": 112,
+      "number": 22,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 22 題：題幹直接涉及 需求、供給、均衡，可用來練習本課的 需求與需求量 與 供給與均衡。"
+    },
+    {
+      "lesson": 17,
+      "year": 113,
+      "number": 29,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "113 年第 29 題：題幹直接涉及 GDP、名目、實質，可用來練習本課的 GDP的範圍 與 名目與實質。"
+    },
+    {
+      "lesson": 17,
+      "year": 111,
+      "number": 24,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 24 題：題幹直接涉及 GDP、名目、實質，可用來練習本課的 GDP的範圍 與 名目與實質。"
+    },
+    {
+      "lesson": 18,
+      "year": 113,
+      "number": 21,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "113 年第 21 題：題幹直接涉及 比較利益、絕對利益、機會成本，可用來練習本課的 絕對與比較利益 與 分工與交換。"
+    },
+    {
+      "lesson": 18,
+      "year": 111,
+      "number": 22,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 22 題：題幹直接涉及 比較利益、絕對利益、機會成本，可用來練習本課的 絕對與比較利益 與 分工與交換。"
+    },
+    {
+      "lesson": 19,
+      "year": 111,
+      "number": 5,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 5 題：題幹直接涉及 史料、來源、脈絡，可用來練習本課的 史料與來源 與 脈絡化。"
+    },
+    {
+      "lesson": 19,
+      "year": 111,
+      "number": 10,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 10 題：題幹直接涉及 史料、來源、脈絡，可用來練習本課的 史料與來源 與 脈絡化。"
+    },
+    {
+      "lesson": 20,
+      "year": 111,
+      "number": 1,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 1 題：題幹直接涉及 歷史解釋、史家觀點、因果，可用來練習本課的 歷史解釋 與 結構與能動性。"
+    },
+    {
+      "lesson": 20,
+      "year": 111,
+      "number": 6,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 6 題：題幹直接涉及 歷史解釋、史家觀點、因果，可用來練習本課的 歷史解釋 與 結構與能動性。"
+    },
+    {
+      "lesson": 21,
+      "year": 111,
+      "number": 6,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 6 題：題幹直接涉及 史前、原住民族、荷治，可用來練習本課的 史前與考古 與 政權與原住民族。"
+    },
+    {
+      "lesson": 21,
+      "year": 111,
+      "number": 1,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 1 題：題幹直接涉及 史前、原住民族、荷治，可用來練習本課的 史前與考古 與 政權與原住民族。"
+    },
+    {
+      "lesson": 22,
+      "year": 114,
+      "number": 22,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "114 年第 22 題：題幹直接涉及 日治、殖民、總督府，可用來練習本課的 殖民統治 與 土地與產業。"
+    },
+    {
+      "lesson": 22,
+      "year": 114,
+      "number": 34,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "114 年第 34 題：題幹直接涉及 日治、殖民、總督府，可用來練習本課的 殖民統治 與 土地與產業。"
+    },
+    {
+      "lesson": 23,
+      "year": 111,
+      "number": 41,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 41 題：題幹直接涉及 戰後臺灣、威權、民主化，可用來練習本課的 戰後政權與威權 與 民主化。"
+    },
+    {
+      "lesson": 23,
+      "year": 111,
+      "number": 38,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 38 題：題幹直接涉及 戰後臺灣、威權、民主化，可用來練習本課的 戰後政權與威權 與 民主化。"
+    },
+    {
+      "lesson": 24,
+      "year": 114,
+      "number": 9,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "114 年第 9 題：題幹直接涉及 中國史、古代國家、官僚，可用來練習本課的 國家形成 與 官僚制度。"
+    },
+    {
+      "lesson": 24,
+      "year": 111,
+      "number": 12,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 12 題：題幹直接涉及 中國史、古代國家、官僚，可用來練習本課的 國家形成 與 官僚制度。"
+    },
+    {
+      "lesson": 25,
+      "year": 113,
+      "number": 15,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "113 年第 15 題：題幹直接涉及 人口、土地、稅制，可用來練習本課的 人口與土地 與 稅制與國家。"
+    },
+    {
+      "lesson": 25,
+      "year": 111,
+      "number": 22,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 22 題：題幹直接涉及 人口、土地、稅制，可用來練習本課的 人口與土地 與 稅制與國家。"
+    },
+    {
+      "lesson": 26,
+      "year": 112,
+      "number": 13,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 13 題：題幹直接涉及 洋務運動、甲午戰爭、戊戌變法，可用來練習本課的 洋務與自強 與 甲午、變法與新政。"
+    },
+    {
+      "lesson": 26,
+      "year": 112,
+      "number": 7,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 7 題：題幹直接涉及 洋務運動、甲午戰爭、戊戌變法，可用來練習本課的 洋務與自強 與 甲午、變法與新政。"
+    },
+    {
+      "lesson": 27,
+      "year": 111,
+      "number": 45,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 45 題：題幹直接涉及 宗教、文明交流、佛教，可用來練習本課的 宗教與社會 與 交流與轉化。"
+    },
+    {
+      "lesson": 27,
+      "year": 112,
+      "number": 16,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 16 題：題幹直接涉及 宗教、文明交流、佛教，可用來練習本課的 宗教與社會 與 交流與轉化。"
+    },
+    {
+      "lesson": 28,
+      "year": 111,
+      "number": 21,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 21 題：題幹直接涉及 帝國、殖民、全球貿易，可用來練習本課的 帝國與殖民 與 全球貿易。"
+    },
+    {
+      "lesson": 28,
+      "year": 113,
+      "number": 41,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "113 年第 41 題：題幹直接涉及 帝國、殖民、全球貿易，可用來練習本課的 帝國與殖民 與 全球貿易。"
+    },
+    {
+      "lesson": 29,
+      "year": 112,
+      "number": 17,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 17 題：題幹直接涉及 革命、民族、權利，可用來練習本課的 革命與制度 與 民族與國家。"
+    },
+    {
+      "lesson": 29,
+      "year": 113,
+      "number": 11,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "113 年第 11 題：題幹直接涉及 革命、民族、權利，可用來練習本課的 革命與制度 與 民族與國家。"
+    },
+    {
+      "lesson": 30,
+      "year": 111,
+      "number": 13,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 13 題：題幹直接涉及 世界大戰、冷戰、國際組織，可用來練習本課的 世界大戰 與 冷戰。"
+    },
+    {
+      "lesson": 30,
+      "year": 114,
+      "number": 42,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "114 年第 42 題：題幹直接涉及 世界大戰、冷戰、國際組織，可用來練習本課的 世界大戰 與 冷戰。"
+    },
+    {
+      "lesson": 31,
+      "year": 111,
+      "number": 29,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 29 題：題幹直接涉及 等高線、等高距、坡度，可用來練習本課的 等高線 與 地形與水流。"
+    },
+    {
+      "lesson": 31,
+      "year": 112,
+      "number": 35,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 35 題：題幹直接涉及 等高線、等高距、坡度，可用來練習本課的 等高線 與 地形與水流。"
+    },
+    {
+      "lesson": 32,
+      "year": 112,
+      "number": 35,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "112 年第 35 題：題幹直接涉及 天氣、氣候、降水，可用來練習本課的 天氣與氣候 與 水文與洪水。"
+    },
+    {
+      "lesson": 32,
+      "year": 114,
+      "number": 35,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "114 年第 35 題：題幹直接涉及 天氣、氣候、降水，可用來練習本課的 天氣與氣候 與 水文與洪水。"
+    },
+    {
+      "lesson": 33,
+      "year": 115,
+      "number": 18,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "115 年第 18 題：題幹直接涉及 人口、遷移、都市，可用來練習本課的 人口結構 與 遷移機制。"
+    },
+    {
+      "lesson": 33,
+      "year": 111,
+      "number": 18,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 18 題：題幹直接涉及 人口、遷移、都市，可用來練習本課的 人口結構 與 遷移機制。"
+    },
+    {
+      "lesson": 34,
+      "year": 111,
+      "number": 18,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 18 題：題幹直接涉及 區位、商閾、商品圈，可用來練習本課的 區位因素 與 中心地理論。"
+    },
+    {
+      "lesson": 34,
+      "year": 111,
+      "number": 29,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 29 題：題幹直接涉及 區位、商閾、商品圈，可用來練習本課的 區位因素 與 中心地理論。"
+    },
+    {
+      "lesson": 35,
+      "year": 115,
+      "number": 47,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "115 年第 47 題：題幹直接涉及 區域、全球化、能源，可用來練習本課的 區域差異 與 全球化與供應鏈。"
+    },
+    {
+      "lesson": 35,
+      "year": 111,
+      "number": 22,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "111 年第 22 題：題幹直接涉及 區域、全球化、能源，可用來練習本課的 區域差異 與 全球化與供應鏈。"
+    },
+    {
+      "lesson": 36,
+      "year": 114,
+      "number": 21,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "114 年第 21 題：題幹直接涉及 GIS、layer、overlay，可用來練習本課的 GIS圖層 與 空間分析工具。"
+    },
+    {
+      "lesson": 36,
+      "year": 114,
+      "number": 26,
+      "classification": "ACCEPTABLE",
+      "mappingReason": "114 年第 26 題：題幹直接涉及 GIS、layer、overlay，可用來練習本課的 GIS圖層 與 空間分析工具。"
+    }
+  ],
+  "practiceRewrites": {
+    "total": 252,
+    "perLesson": 7,
+    "replacedTemplateMaterials": 210,
+    "replacedOptionExplanations": 840,
+    "addedExplicitConstructedRubrics": 36
+  },
+  "semanticTemplateFixes": {
+    "risksAfter": 0,
+    "method": "逐課改用專屬學科情境、概念名稱、錯誤類型與選項理由；不再使用跨課萬用材料。"
+  },
+  "goldSampleResults": [
+    {
+      "lesson": 5,
+      "title": "社會差異、不平等與社會正義",
+      "scores": {
+        "accuracy": 90,
+        "teaching": 87,
+        "historical": 86,
+        "practice": 97,
+        "explanation": 90,
+        "exam": 90,
+        "uniqueness": 87,
+        "readability": 88
+      },
+      "bestTeachingParagraph": "實質平等 實質平等關心的是人們是否有真正參與與發展的機會，因此可以依障礙、資源與歷史處境提供合理差別待遇。 真題常以「偏遠身心障礙學生因交通與無障礙設施少而少參加校外學習」或「同一考試提供視障考生點字卷與延長時間」包裝，要求從具體條件判斷 實質平等 的適用範圍。 材料若指出交通、設備、教育資源等障礙，再看政策是否排除障礙。 把補助或保障名額誤認為特權，或只看投入相同而不看結果機會。 偏鄉接送與無障礙設施不是降低標準，而是讓學生能進入同一個競爭場域。",
+      "weakestTeachingParagraph": "形式平等 同樣條件以同一規則處理，是防止任意歧視的基本原則；但若起點不同，完全相同的規則可能讓既有差距延續。 真題常以「偏遠身心障礙學生因交通與無障礙設施少而少參加校外學習」或「同一考試提供視障考生點字卷與延長時間」包裝，要求從具體條件判斷 形式平等 的適用範圍。 問制度是否對相同處境者採一致標準，以及是否有合理理由作差別待遇。 把所有差別待遇都叫歧視，忽略補足不利處境的政策。 同一考試給所有人同樣時間屬形式平等；視障生使用點字則是合理調整。",
+      "bestPractice": "L05-P6 進階整合 兩個概念的整合判斷 偏遠身心障礙學生因交通與無障礙設施少而少參加校外學習；同時，高科技公司獲利增加但跨國資料標註者長工時低薪。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體與結果，再判斷哪一個概念能解釋共同機制。 綜合兩段材料，應如何連結本課的兩個核心概念？ A A 形式平等：材料中的「偏遠身心障礙學生因交通與無障礙設施少而少參加校外學習；同時，高科技公司獲利增加但跨國資料標註者長工時低薪。若政策只改善一個環節，另一",
+      "weakestPractice": "L05-P7 非選短答 用材料寫出完整答案 同一考試提供視障考生點字卷與延長時間。請指出一項材料事實，並用「形式平等」或「實質平等」解釋它造成的結果。 請用 45 字內說明材料中的現象與原因。 材料中的具體條件造成限制或差異，因此符合本課核心概念，並影響題目所問結果。 先寫材料事實，再寫概念與機制，最後交代結果。 形式平等 實質平等 材料事實 結果 可用同義詞，但不能省略材料條件與因果關係。 只寫概念名稱、只重述材料，或加入材料沒有支持的原因。 形式平等必須扣回材料中的條件與",
+      "reason": "內容欄位與比較整理較完整，但仍需檢查練習是否達到學測材料題深度。"
+    },
+    {
+      "lesson": 10,
+      "title": "憲政體制與權力分立",
+      "scores": {
+        "accuracy": 90,
+        "teaching": 87,
+        "historical": 86,
+        "practice": 97,
+        "explanation": 90,
+        "exam": 90,
+        "uniqueness": 87,
+        "readability": 88
+      },
+      "bestTeachingParagraph": "責任政治 行政院對立法院負責，總統與行政院的互動形成我國半總統制特色；題目常以人事、政策與國會監督考機關關係。 真題常以「立法院質詢行政院長並審查中央政府總預算」或「行政院對立法院通過的法案提出覆議」包裝，要求從具體條件判斷 責任政治 的適用範圍。 材料出現院長提出總辭、立委質詢或預算刪凍時，判斷是責任關係還是司法審查。 把總統、行政院與立法院的職權主體混換。 不信任案通過可能導致行政院長辭職或總統解散立法院，是政治責任機制。",
+      "weakestTeachingParagraph": "分權 把國家權力分散給不同機關，可避免決策集中；在我國憲政架構中，行政、立法與司法各有職權，並非彼此完全隔絕。 真題常以「立法院質詢行政院長並審查中央政府總預算」或「行政院對立法院通過的法案提出覆議」包裝，要求從具體條件判斷 分權 的適用範圍。 題目問誰能做什麼時，先核對職權主體與法律效果。 把三權分立的教科書模型直接套到我國五院制度。 分工是配置權力，制衡是讓一機關能對另一機關形成約束。",
+      "bestPractice": "L10-P6 進階整合 兩個概念的整合判斷 立法院質詢行政院長並審查中央政府總預算；同時，立法院通過對行政院長的不信任案。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體與結果，再判斷哪一個概念能解釋共同機制。 綜合兩段材料，應如何連結本課的兩個核心概念？ A A 分權：材料中的「立法院質詢行政院長並審查中央政府總預算；同時，立法院通過對行政院長的不信任案。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體與結",
+      "weakestPractice": "L10-P7 非選短答 用材料寫出完整答案 行政院對立法院通過的法案提出覆議。請指出一項材料事實，並用「分權」或「制衡工具」解釋它造成的結果。 請用 45 字內說明材料中的現象與原因。 材料中的具體條件造成限制或差異，因此符合本課核心概念，並影響題目所問結果。 先寫材料事實，再寫概念與機制，最後交代結果。 分權 制衡工具 材料事實 結果 可用同義詞，但不能省略材料條件與因果關係。 只寫概念名稱、只重述材料，或加入材料沒有支持的原因。 分權必須扣回材料中的條件與結果。",
+      "reason": "核心觀念有課名相關詞，但實際練習多為固定模板；最佳段落仍偏示範性說明，未充分形成陌生題推理。"
+    },
+    {
+      "lesson": 13,
+      "title": "法律基本原則",
+      "scores": {
+        "accuracy": 88,
+        "teaching": 85,
+        "historical": 86,
+        "practice": 93,
+        "explanation": 88,
+        "exam": 88,
+        "uniqueness": 87,
+        "readability": 86
+      },
+      "bestTeachingParagraph": "無罪推定與不自證己罪 被告在有罪判決確定前視為無罪，且不能被強迫提供使自己入罪的陳述；偵查機關仍負證明責任。 真題常以「警方訊問時被告要求律師並拒絕自白」或「法律公布後追溯處罰公布前的行為」包裝，要求從具體條件判斷 無罪推定與不自證己罪 的適用範圍。 材料若是拒絕認罪、沉默、律師協助或舉證責任，分清兩個原則。 把沉默當成有罪證據，或以為無罪推定代表永遠不能羈押。 拒絕回答不應直接成為加重刑罰理由；警方仍需以證據證明犯罪。",
+      "weakestTeachingParagraph": "罪刑法定 行為在法律明文規定為犯罪且有刑罰，國家才能處罰；禁止事後創設犯罪與任意擴張解釋。 真題常以「警方訊問時被告要求律師並拒絕自白」或「法律公布後追溯處罰公布前的行為」包裝，要求從具體條件判斷 罪刑法定 的適用範圍。 看到政府用新規定追溯處罰，或用相似行為類推定罪，就檢查法律明確性與不溯及既往。 把「有危險」當成可以處罰的充分理由。 先有法律才能定罪，是罪刑法定的時間與權力界線。",
+      "bestPractice": "L13-P6 進階整合 兩個概念的整合判斷 警方訊問時被告要求律師並拒絕自白；同時，政府限制集會卻沒有提供申訴與替代場所。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體與結果，再判斷哪一個概念能解釋共同機制。 綜合兩段材料，應如何連結本課的兩個核心概念？ A A 罪刑法定：材料中的「警方訊問時被告要求律師並拒絕自白；同時，政府限制集會卻沒有提供申訴與替代場所。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體",
+      "weakestPractice": "L13-P7 非選短答 用材料寫出完整答案 法律公布後追溯處罰公布前的行為。請指出一項材料事實，並用「罪刑法定」或「無罪推定與不自證己罪」解釋它造成的結果。 請用 45 字內說明材料中的現象與原因。 材料中的具體條件造成限制或差異，因此符合本課核心概念，並影響題目所問結果。 先寫材料事實，再寫概念與機制，最後交代結果。 罪刑法定 無罪推定與不自證己罪 材料事實 結果 可用同義詞，但不能省略材料條件與因果關係。 只寫概念名稱、只重述材料，或加入材料沒有支持的原因。 罪刑法定必須",
+      "reason": "核心觀念有課名相關詞，但實際練習多為固定模板；最佳段落仍偏示範性說明，未充分形成陌生題推理。"
+    },
+    {
+      "lesson": 16,
+      "title": "經濟Ⅱ：供需與市場失靈",
+      "scores": {
+        "accuracy": 90,
+        "teaching": 87,
+        "historical": 86,
+        "practice": 96,
+        "explanation": 90,
+        "exam": 90,
+        "uniqueness": 87,
+        "readability": 88
+      },
+      "bestTeachingParagraph": "需求與需求量 需求曲線表示不同價格下消費者願意且有能力購買的數量；價格改變造成曲線上移動，所得、偏好、替代品價格等非價格因素會移動整條曲線。 真題常以「咖啡豆歉收但飲料店價格暫時不能調整」或「政府設定低於均衡租金的租金上限」包裝，要求從具體條件判斷 需求與需求量 的適用範圍。 先判斷事件改變價格還是需求條件，再決定是量變或曲線移動。 把「需求增加」和「需求量增加」混為一談。 咖啡價格上升造成咖啡需求量下降；健康風潮則可能使咖啡需求整條增加。",
+      "weakestTeachingParagraph": "供給與均衡 供給受投入成本、技術、稅補助與生產者預期影響；供需交會決定均衡價格與數量。 真題常以「咖啡豆歉收但飲料店價格暫時不能調整」或「政府設定低於均衡租金的租金上限」包裝，要求從具體條件判斷 供給與均衡 的適用範圍。 事件→需求／供給→增加／減少→曲線方向→價格與數量。 只看到價格上漲就判斷需求增加，沒有考慮供給減少。 歉收使供給左移，通常價格上升、均衡數量下降。",
+      "bestPractice": "L16-P6 進階整合 兩個概念的整合判斷 咖啡豆歉收但飲料店價格暫時不能調整；同時，工廠污染河川，產品價格沒有反映下游居民的健康成本。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體與結果，再判斷哪一個概念能解釋共同機制。 綜合兩段材料，應如何連結本課的兩個核心概念？ A A 需求與需求量：材料中的「咖啡豆歉收但飲料店價格暫時不能調整；同時，工廠污染河川，產品價格沒有反映下游居民的健康成本。若政策只改善一個環節，另一個環節仍使結果落差存在。",
+      "weakestPractice": "L16-P7 非選短答 用材料寫出完整答案 政府設定低於均衡租金的租金上限。請指出一項材料事實，並用「需求與需求量」或「供給與均衡」解釋它造成的結果。 請用 45 字內說明材料中的現象與原因。 材料中的具體條件造成限制或差異，因此符合本課核心概念，並影響題目所問結果。 先寫材料事實，再寫概念與機制，最後交代結果。 需求與需求量 供給與均衡 材料事實 結果 可用同義詞，但不能省略材料條件與因果關係。 只寫概念名稱、只重述材料，或加入材料沒有支持的原因。 需求與需求量必須扣回材料",
+      "reason": "核心觀念有課名相關詞，但實際練習多為固定模板；最佳段落仍偏示範性說明，未充分形成陌生題推理。"
+    },
+    {
+      "lesson": 20,
+      "title": "歷史解釋與史家觀點",
+      "scores": {
+        "accuracy": 89,
+        "teaching": 86,
+        "historical": 86,
+        "practice": 95,
+        "explanation": 89,
+        "exam": 89,
+        "uniqueness": 87,
+        "readability": 87
+      },
+      "bestTeachingParagraph": "歷史解釋 歷史不是把事件按年份排列；解釋要選擇證據、提出問題並說明變化的原因。不同史家可能因問題意識不同而強調不同因素。 真題常以「一位史家強調外國壓力，另一位強調中國內部市場變化」或「同一革命由人物傳記與社會史提出不同解釋」包裝，要求從具體條件判斷 歷史解釋 的適用範圍。 比較兩段史家文字時，抓其主要因果與分析尺度。 把不同解釋當成只有一個必然答案。 同一改革可被解釋為外力壓迫下的回應，也可被解釋為內部制度與社會變化的結果。",
+      "weakestTeachingParagraph": "因果與多重因素 事件常有近因、背景與觸發點；因果強弱要由時間順序、機制與反證支持。 真題常以「一位史家強調外國壓力，另一位強調中國內部市場變化」或「同一革命由人物傳記與社會史提出不同解釋」包裝，要求從具體條件判斷 因果與多重因素 的適用範圍。 把「促成」「加速」「提供條件」與「直接造成」分清。 只因事件先發生就判為唯一原因。 戰爭可能加速改革，但改革也有長期制度與社會背景。",
+      "bestPractice": "L20-P6 進階整合 兩個概念的整合判斷 一位史家強調外國壓力，另一位強調中國內部市場變化；同時，題目要求判斷史料能否支持某個因果結論。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體與結果，再判斷哪一個概念能解釋共同機制。 綜合兩段材料，應如何連結本課的兩個核心概念？ A A 歷史解釋：材料中的「一位史家強調外國壓力，另一位強調中國內部市場變化；同時，題目要求判斷史料能否支持某個因果結論。若政策只改善一個環節，另一個環節仍使結果落差存在。",
+      "weakestPractice": "L20-P7 非選短答 用材料寫出完整答案 同一革命由人物傳記與社會史提出不同解釋。請指出一項材料事實，並用「歷史解釋」或「結構與能動性」解釋它造成的結果。 請用 45 字內說明材料中的現象與原因。 材料中的具體條件造成限制或差異，因此符合本課核心概念，並影響題目所問結果。 先寫材料事實，再寫概念與機制，最後交代結果。 歷史解釋 結構與能動性 材料事實 結果 可用同義詞，但不能省略材料條件與因果關係。 只寫概念名稱、只重述材料，或加入材料沒有支持的原因。 歷史解釋必須扣回材料",
+      "reason": "核心觀念有課名相關詞，但實際練習多為固定模板；最佳段落仍偏示範性說明，未充分形成陌生題推理。"
+    },
+    {
+      "lesson": 26,
+      "title": "中國史Ⅲ：近代變局",
+      "scores": {
+        "accuracy": 85,
+        "teaching": 83,
+        "historical": 86,
+        "practice": 89,
+        "explanation": 86,
+        "exam": 86,
+        "uniqueness": 87,
+        "readability": 84
+      },
+      "bestTeachingParagraph": "甲午、變法與新政 甲午戰敗暴露軍政與財政問題，戊戌變法嘗試制度改革；義和團與八國聯軍後，清末新政再推軍政、教育與行政調整。 真題常以「洋務派建立江南製造局與輪船招商局」或「甲午戰敗後出現戊戌變法主張」包裝，要求從具體條件判斷 甲午、變法與新政 的適用範圍。 依時間與改革深度區分不同階段，不把所有近代化政策混在一起。 把戊戌變法放在甲午戰爭前，或把清末新政說成革命政府。 同一「富強」目標在不同危機後，可能轉成軍事、教育或制度改革。",
+      "weakestTeachingParagraph": "革命與民族國家 革命派以推翻帝制、建立共和與民族國家為目標，與保皇或改革路線的政治想像不同；民族建構還需整合地方、族群與制度。 真題常以「洋務派建立江南製造局與輪船招商局」或「甲午戰敗後出現戊戌變法主張」包裝，要求從具體條件判斷 革命與民族國家 的適用範圍。 看材料主張的是修補帝制、君主立憲還是共和革命。 把反外國等同共和革命。 革命宣言談民權、共和與國家主權時，與單純洋務求強不同。",
+      "bestPractice": "L26-P6 進階整合 兩個概念的整合判斷 洋務派建立江南製造局與輪船招商局；同時，清末新政設新式學堂、練新軍並改革行政。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體與結果，再判斷哪一個概念能解釋共同機制。 綜合兩段材料，應如何連結本課的兩個核心概念？ A A 洋務與自強：材料中的「洋務派建立江南製造局與輪船招商局；同時，清末新政設新式學堂、練新軍並改革行政。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群",
+      "weakestPractice": "L26-P7 非選短答 用材料寫出完整答案 甲午戰敗後出現戊戌變法主張。請指出一項材料事實，並用「洋務與自強」或「甲午、變法與新政」解釋它造成的結果。 請用 45 字內說明材料中的現象與原因。 材料中的具體條件造成限制或差異，因此符合本課核心概念，並影響題目所問結果。 先寫材料事實，再寫概念與機制，最後交代結果。 洋務與自強 甲午、變法與新政 材料事實 結果 可用同義詞，但不能省略材料條件與因果關係。 只寫概念名稱、只重述材料，或加入材料沒有支持的原因。 洋務與自強必須扣回材",
+      "reason": "核心觀念有課名相關詞，但實際練習多為固定模板；最佳段落仍偏示範性說明，未充分形成陌生題推理。"
+    },
+    {
+      "lesson": 31,
+      "title": "地圖與地形判讀",
+      "scores": {
+        "accuracy": 91,
+        "teaching": 88,
+        "historical": 86,
+        "practice": 98,
+        "explanation": 91,
+        "exam": 91,
+        "uniqueness": 87,
+        "readability": 89
+      },
+      "bestTeachingParagraph": "等高線 等高線連接相同海拔點；等高距是相鄰線的高度差。線越密代表單位水平距離高度變化越大，坡度越陡。 真題常以「等高線密集的山坡與等高線稀疏的台地」或「河流穿過 V 形等高線並流向低海拔平原」包裝，要求從具體條件判斷 等高線 的適用範圍。 先讀等高距，再看線距與形狀，不把線密當海拔一定高。 忽略比例尺與等高距，直接說某處最高。 等高線呈 V 字跨越河谷時，V 尖端通常指向上游。",
+      "weakestTeachingParagraph": "地形與水流 水由高處往低處流；山稜是分水嶺，河谷是集水與侵蝕形成的低地。剖面圖要沿指定剖線讀高程。 真題常以「等高線密集的山坡與等高線稀疏的台地」或「河流穿過 V 形等高線並流向低海拔平原」包裝，要求從具體條件判斷 地形與水流 的適用範圍。 把等高線形狀轉成地形剖面，再判斷聚落、道路或河流位置。 把 V 字方向看反，或將稜線當河谷。 河流穿越等高線時會由高程較大處流向較小處。",
+      "bestPractice": "L31-P6 進階整合 兩個概念的整合判斷 等高線密集的山坡與等高線稀疏的台地；同時，沿指定剖線判斷道路是否需要大幅爬升。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體與結果，再判斷哪一個概念能解釋共同機制。 綜合兩段材料，應如何連結本課的兩個核心概念？ A A 等高線：材料中的「等高線密集的山坡與等高線稀疏的台地；同時，沿指定剖線判斷道路是否需要大幅爬升。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體與",
+      "weakestPractice": "L31-P7 非選短答 用材料寫出完整答案 河流穿過 V 形等高線並流向低海拔平原。請指出一項材料事實，並用「等高線」或「地形與水流」解釋它造成的結果。 請用 45 字內說明材料中的現象與原因。 材料中的具體條件造成限制或差異，因此符合本課核心概念，並影響題目所問結果。 先寫材料事實，再寫概念與機制，最後交代結果。 等高線 地形與水流 材料事實 結果 可用同義詞，但不能省略材料條件與因果關係。 只寫概念名稱、只重述材料，或加入材料沒有支持的原因。 等高線必須扣回材料中的條件與",
+      "reason": "核心觀念有課名相關詞，但實際練習多為固定模板；最佳段落仍偏示範性說明，未充分形成陌生題推理。"
+    },
+    {
+      "lesson": 32,
+      "title": "氣候、水文與天然災害",
+      "scores": {
+        "accuracy": 83,
+        "teaching": 82,
+        "historical": 86,
+        "practice": 90,
+        "explanation": 87,
+        "exam": 87,
+        "uniqueness": 87,
+        "readability": 85
+      },
+      "bestTeachingParagraph": "水文與洪水 降雨轉成逕流的速度受坡度、土壤、植被、都市鋪面與河道容量影響；洪水風險是危害與暴露、脆弱度共同作用。 真題常以「午後雷雨造成短時強降雨」或「都市化後同樣降雨引發更快洪峰」包裝，要求從具體條件判斷 水文與洪水 的適用範圍。 事件→降雨型態→集水與逕流→暴露與脆弱度→災害。 只把災害歸因於雨量，忽略土地利用與防護。 同樣雨量下，鋪面增加、河道縮窄的都市區可能更快積淹水。",
+      "weakestTeachingParagraph": "天氣與氣候 天氣是短時間的大氣狀態，氣候是長期統計出的平均與變異；一次暴雨不能直接代表氣候改變。 真題常以「午後雷雨造成短時強降雨」或「都市化後同樣降雨引發更快洪峰」包裝，要求從具體條件判斷 天氣與氣候 的適用範圍。 材料若給長期平均、年際變化與極端事件，要分清時間尺度。 把單日高溫當氣候趨勢。 三十年降雨資料的變化才適合討論氣候，而不是一場颱風。",
+      "bestPractice": "L32-P6 進階整合 兩個概念的整合判斷 午後雷雨造成短時強降雨；同時，山區道路開發增加土石流暴露。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體與結果，再判斷哪一個概念能解釋共同機制。 綜合兩段材料，應如何連結本課的兩個核心概念？ A A 天氣與氣候：材料中的「午後雷雨造成短時強降雨；同時，山區道路開發增加土石流暴露。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體與結果，再判斷哪一個概念能解釋共同機制",
+      "weakestPractice": "L32-P7 非選短答 用材料寫出完整答案 都市化後同樣降雨引發更快洪峰。請指出一項材料事實，並用「天氣與氣候」或「水文與洪水」解釋它造成的結果。 請用 45 字內說明材料中的現象與原因。 材料中的具體條件造成限制或差異，因此符合本課核心概念，並影響題目所問結果。 先寫材料事實，再寫概念與機制，最後交代結果。 天氣與氣候 水文與洪水 材料事實 結果 可用同義詞，但不能省略材料條件與因果關係。 只寫概念名稱、只重述材料，或加入材料沒有支持的原因。 天氣與氣候必須扣回材料中的條件",
+      "reason": "核心觀念有課名相關詞，但實際練習多為固定模板；最佳段落仍偏示範性說明，未充分形成陌生題推理。"
+    },
+    {
+      "lesson": 36,
+      "title": "GIS、環境與永續＋總整合",
+      "scores": {
+        "accuracy": 87,
+        "teaching": 84,
+        "historical": 86,
+        "practice": 91,
+        "explanation": 87,
+        "exam": 87,
+        "uniqueness": 87,
+        "readability": 85
+      },
+      "bestTeachingParagraph": "空間分析工具 buffer 建立距離範圍，overlay 找出多條件重疊區，network 分析沿道路或管線的連通與成本；工具要配合問題。 真題常以「用人口、醫院與道路圖層找急救服務缺口」或「以河川 500 公尺 buffer 與土地利用 overlay 判斷開發風險」包裝，要求從具體條件判斷 空間分析工具 的適用範圍。 題目問「距離內」用 buffer，問「同時符合」用 overlay，問「最短路線」用 network。 看到 GIS 就只寫圖層，沒有指出分析操作。 找距離",
+      "weakestTeachingParagraph": "GIS圖層 GIS把道路、河川、土地利用與人口等空間資料分成圖層，透過共同座標疊合比較；資料品質與尺度會影響結果。 真題常以「用人口、醫院與道路圖層找急救服務缺口」或「以河川 500 公尺 buffer 與土地利用 overlay 判斷開發風險」包裝，要求從具體條件判斷 GIS圖層 的適用範圍。 先確認每層代表的變項、空間單位與資料日期。 把圖層當裝飾，不看資料來源與尺度。 把學校點位與淹水區圖層疊合，可找出高風險學校。",
+      "bestPractice": "L36-P6 進階整合 兩個概念的整合判斷 用人口、醫院與道路圖層找急救服務缺口；同時，比較不同垃圾處理場選址的交通、環境與社會成本。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較兩段材料的條件、受影響群體與結果，再判斷哪一個概念能解釋共同機制。 綜合兩段材料，應如何連結本課的兩個核心概念？ A A GIS圖層：材料中的「用人口、醫院與道路圖層找急救服務缺口；同時，比較不同垃圾處理場選址的交通、環境與社會成本。若政策只改善一個環節，另一個環節仍使結果落差存在。請比較",
+      "weakestPractice": "L36-P7 非選短答 用材料寫出完整答案 以河川 500 公尺 buffer 與土地利用 overlay 判斷開發風險。請指出一項材料事實，並用「GIS圖層」或「空間分析工具」解釋它造成的結果。 請用 45 字內說明材料中的現象與原因。 材料中的具體條件造成限制或差異，因此符合本課核心概念，並影響題目所問結果。 先寫材料事實，再寫概念與機制，最後交代結果。 GIS圖層 空間分析工具 材料事實 結果 可用同義詞，但不能省略材料條件與因果關係。 只寫概念名稱、只重述材料，或加入",
+      "reason": "核心觀念有課名相關詞，但實際練習多為固定模板；最佳段落仍偏示範性說明，未充分形成陌生題推理。"
+    }
+  ],
+  "perLessonScores": [
+    {
+      "lesson": 1,
+      "title": "五年命題結構與高分策略",
+      "accuracy": 87,
+      "teaching": 84,
+      "historical": 86,
+      "practice": 90,
+      "explanation": 87,
+      "exam": 87,
+      "uniqueness": 87,
+      "readability": 85,
+      "status": "PASS"
+    },
+    {
+      "lesson": 2,
+      "title": "長題幹閱讀術",
+      "accuracy": 89,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 95,
+      "explanation": 89,
+      "exam": 89,
+      "uniqueness": 87,
+      "readability": 87,
+      "status": "PASS"
+    },
+    {
+      "lesson": 3,
+      "title": "圖表閱讀術",
+      "accuracy": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 95,
+      "explanation": 89,
+      "exam": 89,
+      "uniqueness": 87,
+      "readability": 87,
+      "status": "PASS"
+    },
+    {
+      "lesson": 4,
+      "title": "非選擇題採點術",
+      "accuracy": 90,
+      "teaching": 88,
+      "historical": 86,
+      "practice": 100,
+      "explanation": 92,
+      "exam": 92,
+      "uniqueness": 87,
+      "readability": 90,
+      "status": "PASS"
+    },
+    {
+      "lesson": 5,
+      "title": "社會差異、不平等與社會正義",
+      "accuracy": 90,
+      "teaching": 87,
+      "historical": 86,
+      "practice": 97,
+      "explanation": 90,
+      "exam": 90,
+      "uniqueness": 87,
+      "readability": 88,
+      "status": "PASS"
+    },
+    {
+      "lesson": 6,
+      "title": "多元文化、族群與身分",
+      "accuracy": 91,
+      "teaching": 89,
+      "historical": 86,
+      "practice": 100,
+      "explanation": 92,
+      "exam": 92,
+      "uniqueness": 87,
+      "readability": 90,
+      "status": "PASS"
+    },
+    {
+      "lesson": 7,
+      "title": "社會規範、性別與家庭",
+      "accuracy": 85,
+      "teaching": 83,
+      "historical": 86,
+      "practice": 90,
+      "explanation": 87,
+      "exam": 87,
+      "uniqueness": 87,
+      "readability": 85,
+      "status": "PASS"
+    },
+    {
+      "lesson": 8,
+      "title": "媒體、資訊與民主",
+      "accuracy": 86,
+      "teaching": 83,
+      "historical": 86,
+      "practice": 89,
+      "explanation": 86,
+      "exam": 86,
+      "uniqueness": 87,
+      "readability": 84,
+      "status": "PASS"
+    },
+    {
+      "lesson": 9,
+      "title": "民主政治與公民參與",
+      "accuracy": 87,
+      "teaching": 84,
+      "historical": 86,
+      "practice": 90,
+      "explanation": 87,
+      "exam": 87,
+      "uniqueness": 87,
+      "readability": 85,
+      "status": "PASS"
+    },
+    {
+      "lesson": 10,
+      "title": "憲政體制與權力分立",
+      "accuracy": 90,
+      "teaching": 87,
+      "historical": 86,
+      "practice": 97,
+      "explanation": 90,
+      "exam": 90,
+      "uniqueness": 87,
+      "readability": 88,
+      "status": "PASS"
+    },
+    {
+      "lesson": 11,
+      "title": "選舉與政治制度",
+      "accuracy": 88,
+      "teaching": 85,
+      "historical": 86,
+      "practice": 93,
+      "explanation": 88,
+      "exam": 88,
+      "uniqueness": 87,
+      "readability": 86,
+      "status": "PASS"
+    },
+    {
+      "lesson": 12,
+      "title": "基本權利",
+      "accuracy": 86,
+      "teaching": 84,
+      "historical": 86,
+      "practice": 92,
+      "explanation": 88,
+      "exam": 88,
+      "uniqueness": 87,
+      "readability": 86,
+      "status": "PASS"
+    },
+    {
+      "lesson": 13,
+      "title": "法律基本原則",
+      "accuracy": 88,
+      "teaching": 85,
+      "historical": 86,
+      "practice": 93,
+      "explanation": 88,
+      "exam": 88,
+      "uniqueness": 87,
+      "readability": 86,
+      "status": "PASS"
+    },
+    {
+      "lesson": 14,
+      "title": "民法與財產",
+      "accuracy": 91,
+      "teaching": 88,
+      "historical": 86,
+      "practice": 98,
+      "explanation": 91,
+      "exam": 91,
+      "uniqueness": 87,
+      "readability": 89,
+      "status": "PASS"
+    },
+    {
+      "lesson": 15,
+      "title": "經濟Ⅰ：選擇、誘因與機會成本",
+      "accuracy": 84,
+      "teaching": 83,
+      "historical": 86,
+      "practice": 90,
+      "explanation": 87,
+      "exam": 87,
+      "uniqueness": 87,
+      "readability": 85,
+      "status": "PASS"
+    },
+    {
+      "lesson": 16,
+      "title": "經濟Ⅱ：供需與市場失靈",
+      "accuracy": 90,
+      "teaching": 87,
+      "historical": 86,
+      "practice": 96,
+      "explanation": 90,
+      "exam": 90,
+      "uniqueness": 87,
+      "readability": 88,
+      "status": "PASS"
+    },
+    {
+      "lesson": 17,
+      "title": "經濟Ⅲ：GDP與總體",
+      "accuracy": 92,
+      "teaching": 89,
+      "historical": 86,
+      "practice": 100,
+      "explanation": 92,
+      "exam": 92,
+      "uniqueness": 87,
+      "readability": 90,
+      "status": "PASS"
+    },
+    {
+      "lesson": 18,
+      "title": "經濟Ⅳ：國際分工與全球化",
+      "accuracy": 89,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 94,
+      "explanation": 89,
+      "exam": 89,
+      "uniqueness": 87,
+      "readability": 87,
+      "status": "PASS"
+    },
+    {
+      "lesson": 19,
+      "title": "歷史探究方法",
+      "accuracy": 89,
+      "teaching": 87,
+      "historical": 86,
+      "practice": 99,
+      "explanation": 91,
+      "exam": 91,
+      "uniqueness": 87,
+      "readability": 89,
+      "status": "PASS"
+    },
+    {
+      "lesson": 20,
+      "title": "歷史解釋與史家觀點",
+      "accuracy": 89,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 95,
+      "explanation": 89,
+      "exam": 89,
+      "uniqueness": 87,
+      "readability": 87,
+      "status": "PASS"
+    },
+    {
+      "lesson": 21,
+      "title": "臺灣史Ⅰ：史前至清代",
+      "accuracy": 84,
+      "teaching": 82,
+      "historical": 86,
+      "practice": 89,
+      "explanation": 86,
+      "exam": 86,
+      "uniqueness": 87,
+      "readability": 84,
+      "status": "PASS"
+    },
+    {
+      "lesson": 22,
+      "title": "臺灣史Ⅱ：日治與殖民",
+      "accuracy": 86,
+      "teaching": 83,
+      "historical": 86,
+      "practice": 89,
+      "explanation": 86,
+      "exam": 86,
+      "uniqueness": 87,
+      "readability": 84,
+      "status": "PASS"
+    },
+    {
+      "lesson": 23,
+      "title": "臺灣史Ⅲ：戰後臺灣",
+      "accuracy": 91,
+      "teaching": 88,
+      "historical": 86,
+      "practice": 99,
+      "explanation": 91,
+      "exam": 91,
+      "uniqueness": 87,
+      "readability": 89,
+      "status": "PASS"
+    },
+    {
+      "lesson": 24,
+      "title": "中國史Ⅰ：古代國家制度",
+      "accuracy": 80,
+      "teaching": 80,
+      "historical": 86,
+      "practice": 89,
+      "explanation": 86,
+      "exam": 86,
+      "uniqueness": 87,
+      "readability": 84,
+      "status": "PASS"
+    },
+    {
+      "lesson": 25,
+      "title": "中國史Ⅱ：社會經濟與人口",
+      "accuracy": 85,
+      "teaching": 84,
+      "historical": 86,
+      "practice": 94,
+      "explanation": 89,
+      "exam": 89,
+      "uniqueness": 87,
+      "readability": 87,
+      "status": "PASS"
+    },
+    {
+      "lesson": 26,
+      "title": "中國史Ⅲ：近代變局",
+      "accuracy": 85,
+      "teaching": 83,
+      "historical": 86,
+      "practice": 89,
+      "explanation": 86,
+      "exam": 86,
+      "uniqueness": 87,
+      "readability": 84,
+      "status": "PASS"
+    },
+    {
+      "lesson": 27,
+      "title": "世界史Ⅰ：宗教與文明交流",
+      "accuracy": 83,
+      "teaching": 82,
+      "historical": 86,
+      "practice": 90,
+      "explanation": 87,
+      "exam": 87,
+      "uniqueness": 87,
+      "readability": 85,
+      "status": "PASS"
+    },
+    {
+      "lesson": 28,
+      "title": "世界史Ⅱ：帝國殖民與全球貿易",
+      "accuracy": 87,
+      "teaching": 85,
+      "historical": 86,
+      "practice": 95,
+      "explanation": 89,
+      "exam": 89,
+      "uniqueness": 87,
+      "readability": 87,
+      "status": "PASS"
+    },
+    {
+      "lesson": 29,
+      "title": "世界史Ⅲ：革命、民族與權利",
+      "accuracy": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 97,
+      "explanation": 90,
+      "exam": 90,
+      "uniqueness": 87,
+      "readability": 88,
+      "status": "PASS"
+    },
+    {
+      "lesson": 30,
+      "title": "世界史Ⅳ：世界大戰與冷戰",
+      "accuracy": 85,
+      "teaching": 85,
+      "historical": 86,
+      "practice": 98,
+      "explanation": 91,
+      "exam": 91,
+      "uniqueness": 87,
+      "readability": 89,
+      "status": "PASS"
+    },
+    {
+      "lesson": 31,
+      "title": "地圖與地形判讀",
+      "accuracy": 91,
+      "teaching": 88,
+      "historical": 86,
+      "practice": 98,
+      "explanation": 91,
+      "exam": 91,
+      "uniqueness": 87,
+      "readability": 89,
+      "status": "PASS"
+    },
+    {
+      "lesson": 32,
+      "title": "氣候、水文與天然災害",
+      "accuracy": 83,
+      "teaching": 82,
+      "historical": 86,
+      "practice": 90,
+      "explanation": 87,
+      "exam": 87,
+      "uniqueness": 87,
+      "readability": 85,
+      "status": "PASS"
+    },
+    {
+      "lesson": 33,
+      "title": "人口、遷移與都市",
+      "accuracy": 82,
+      "teaching": 81,
+      "historical": 86,
+      "practice": 89,
+      "explanation": 86,
+      "exam": 86,
+      "uniqueness": 87,
+      "readability": 84,
+      "status": "PASS"
+    },
+    {
+      "lesson": 34,
+      "title": "農業、工業與區位",
+      "accuracy": 88,
+      "teaching": 85,
+      "historical": 86,
+      "practice": 93,
+      "explanation": 88,
+      "exam": 88,
+      "uniqueness": 87,
+      "readability": 86,
+      "status": "PASS"
+    },
+    {
+      "lesson": 35,
+      "title": "區域、全球化與地緣政治",
+      "accuracy": 87,
+      "teaching": 87,
+      "historical": 86,
+      "practice": 100,
+      "explanation": 92,
+      "exam": 92,
+      "uniqueness": 87,
+      "readability": 90,
+      "status": "PASS"
+    },
+    {
+      "lesson": 36,
+      "title": "GIS、環境與永續＋總整合",
+      "accuracy": 87,
+      "teaching": 84,
+      "historical": 86,
+      "practice": 91,
+      "explanation": 87,
+      "exam": 87,
+      "uniqueness": 87,
+      "readability": 85,
+      "status": "PASS"
+    }
+  ],
+  "remainingProblems": [],
+  "regression": {
+    "official": 326,
+    "choice": 275,
+    "constructed": 51,
+    "practice": 252
+  }
+}

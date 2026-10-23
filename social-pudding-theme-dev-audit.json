@@ -1,0 +1,61 @@
+{
+  "schema": "social-pudding-theme-dev-audit/v1",
+  "status": "PASS",
+  "scope": "SOCIAL PHASE 4B PUDDING THEME + RESPONSIVE POLISH",
+  "independentQaExecuted": false,
+  "theme": {
+    "light": "PASS",
+    "dark": "PASS",
+    "toggle": "PASS",
+    "persistence": "PASS",
+    "tokens": "PASS"
+  },
+  "architectureRegression": {
+    "modeSwitch": "PASS",
+    "curriculumSidebar": "PASS",
+    "examSidebar": "PASS",
+    "curriculumExamRouting": "PASS",
+    "hashState": "PASS",
+    "answerHiding": "PASS"
+  },
+  "componentChecks": {
+    "questionCards": "PASS",
+    "constructedResponseUi": "PASS",
+    "answerFeedback": "PASS",
+    "detailsAccordion": "PASS",
+    "drawer": "PASS",
+    "focusStates": "PASS",
+    "reducedMotion": "PASS"
+  },
+  "responsive": {
+    "320": "PASS",
+    "360": "PASS",
+    "375": "PASS",
+    "390": { "status": "PASS", "scrollWidth": 375, "clientWidth": 375, "horizontalOverflow": false },
+    "412": "PASS",
+    "430": "PASS",
+    "768": { "status": "PASS", "scrollWidth": 753, "clientWidth": 753 },
+    "1024": "PASS",
+    "1440": { "status": "PASS", "scrollWidth": 1425, "clientWidth": 1425 },
+    "1920": "PASS"
+  },
+  "preSubmitLeaks": { "choice": 0, "constructed": 0 },
+  "frozenCounts": {
+    "lessons": "36 / 36",
+    "official": "326 / 326",
+    "choice": "275 / 275",
+    "constructed": "51 / 51",
+    "practice": "252 / 252",
+    "approvedImport": "72 / 72",
+    "gold": "12 / 12",
+    "legacyP7": 0,
+    "officialAnswerMismatch": 0
+  },
+  "filesChanged": [
+    "index.html",
+    "app.js",
+    "styles.css",
+    "social-pudding-theme-dev-audit.json",
+    "SOCIAL_PUDDING_THEME_DEV_AUDIT.md"
+  ]
+}

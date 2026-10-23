@@ -1,0 +1,31 @@
+.detailed-lesson{padding:26px;max-width:920px;margin-left:auto;margin-right:auto}.lesson-map,.rich-section{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}.detailed-lesson h3{color:var(--accent);font-size:1.25rem;margin:0 0 12px}.detailed-lesson h4{color:var(--ink);font-size:1rem;margin:18px 0 6px}.detailed-lesson p{margin:8px 0}.detailed-lesson ul{padding-left:1.45em;margin:8px 0}.detailed-lesson li{margin:7px 0}.lesson-map{background:var(--accent-soft);border-radius:12px;padding:18px 22px}.exam-tip,.takeaway,.material,.answer-box{background:#fbfaf6;border-left:4px solid var(--gold);border-radius:8px;padding:12px 16px;margin-top:14px}.exam-tip strong,.takeaway strong,.answer-box strong,.material>strong{color:var(--accent)}.table-wrap{overflow:auto}.comparison-table{border-collapse:collapse;width:100%;min-width:680px;background:#fff}.comparison-table th,.comparison-table td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}.comparison-table thead th{background:var(--accent-soft);color:var(--accent);white-space:nowrap}.comparison-table tbody th{white-space:nowrap;color:var(--accent)}.exam-analysis,.original-question{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px;margin:18px 0}.exam-kicker{color:var(--accent);font-weight:900;border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:12px}.rich-options{display:grid;gap:9px;margin-top:14px}.rich-option{border-radius:8px;padding:10px 13px;border-left:4px solid var(--danger);background:#fff7f5}.rich-option.correct{border-left-color:var(--accent);background:#f0faf7}.rich-option strong{display:block}.rich-option p{margin:5px 0 0;color:var(--muted)}.original-question .material{border-left-color:var(--accent);background:#f7fbfa}.constructed-guide{background:#fffdf7;border-radius:12px;padding:18px}.answer-box.highlight{border-left-color:var(--accent);background:var(--accent-soft)}
+@media(max-width:600px){.detailed-lesson{padding:16px}.comparison-table{min-width:640px}.exam-analysis,.original-question{padding:14px}}
+
+/* 共用課程頁閱讀版面：側欄與主內容分離，避免課名及段落擠在一起 */
+.layout{max-width:1400px;grid-template-columns:minmax(280px,320px) minmax(0,980px);justify-content:center;gap:30px}
+.sidebar{top:84px;max-height:calc(100vh - 105px);overflow-y:auto}
+.content{width:100%;max-width:980px;line-height:1.85}
+.toc-link{display:block;width:100%;padding:10px 9px;line-height:1.45;white-space:normal}
+.toc-link span{display:block;min-width:0;margin-bottom:2px;font-size:.78rem;color:var(--accent);font-weight:900}
+.toc-link b{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-weight:700}
+.toc-link.active{background:var(--accent-soft);color:var(--accent);box-shadow:inset 4px 0 0 var(--accent)}
+.toc-link.active b{font-weight:900}
+.lesson{line-height:1.85}
+.lesson-head{padding-bottom:20px;margin-bottom:4px}
+.lesson h2{line-height:1.35;margin:5px 0 10px}
+.legacy-section{border-top:1px solid var(--line);padding:22px 4px 4px;margin-top:18px}
+.legacy-section h3{color:var(--accent);font-size:1.22rem;margin:0 0 12px}
+.legacy-section h4{color:var(--gold);font-size:1rem;margin:20px 0 6px}
+.legacy-section p{margin:0 0 14px;white-space:pre-wrap}
+.legacy-section ul{padding-left:1.45em;margin:8px 0 16px}
+.legacy-section li{margin:7px 0}
+.legacy-section.example{border-top:4px solid var(--gold);padding:22px 16px 10px;background:#fffdf7;border-radius:10px}
+.legacy-section.practice{border-top:4px solid var(--accent);padding:22px 16px 10px;background:#f7fbfa;border-radius:10px}
+.quick-review{background:#fff8ed;border-left:4px solid var(--gold);padding-left:16px}
+.rich-section{margin-top:28px;padding-top:26px}
+.rich-section>h3{margin-bottom:18px}
+.exam-analysis,.original-question{box-shadow:0 5px 16px rgba(35,53,64,.05);line-height:1.85}
+.answer-details{margin-top:16px;border-top:1px dashed var(--line);padding-top:12px}
+.answer-details summary{cursor:pointer;color:var(--accent);font-weight:900}
+.answer-details .answer-box{margin-top:12px}
+@media(max-width:850px){.layout{grid-template-columns:1fr;gap:18px}.sidebar{position:sticky;top:76px;max-height:33vh}.content{max-width:none}}

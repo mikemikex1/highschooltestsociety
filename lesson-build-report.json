@@ -1,0 +1,1253 @@
+{
+  "generatedAt": "2026-10-22T06:22:39.320Z",
+  "summary": {
+    "lessons": 36,
+    "richLessons": 36,
+    "pass": 36,
+    "fail": 0
+  },
+  "perLesson": [
+    {
+      "lesson": 1,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 2,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 3,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 4,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 5,
+      "knowledge": 86,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 84,
+      "exam": 86,
+      "readability": 84,
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "lesson": 6,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 7,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 8,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 9,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 10,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 11,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 12,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 13,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 14,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 15,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 16,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 17,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 18,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 19,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 20,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 21,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 22,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 23,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 24,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 25,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 26,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 27,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 28,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 29,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 30,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 31,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 32,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 33,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 34,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 35,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    },
+    {
+      "lesson": 36,
+      "knowledge": 88,
+      "teaching": 86,
+      "historical": 86,
+      "practice": 88,
+      "exam": 87,
+      "readability": 84,
+      "status": "PASS",
+      "errors": [],
+      "practiceAudit": {
+        "errors": [],
+        "counts": {
+          "基礎觀念": 2,
+          "學測材料": 3,
+          "進階整合": 1,
+          "非選短答": 1
+        },
+        "total": 7
+      }
+    }
+  ],
+  "historicalIntegration": {
+    "1": [
+      [
+        115,
+        3
+      ],
+      [
+        114,
+        1
+      ]
+    ],
+    "2": [
+      [
+        115,
+        1
+      ],
+      [
+        112,
+        3
+      ]
+    ],
+    "3": [
+      [
+        115,
+        5
+      ],
+      [
+        113,
+        29
+      ]
+    ],
+    "4": [
+      [
+        112,
+        47
+      ],
+      [
+        115,
+        42
+      ]
+    ],
+    "6": [
+      [
+        113,
+        1
+      ],
+      [
+        114,
+        2
+      ]
+    ],
+    "7": [
+      [
+        112,
+        54
+      ],
+      [
+        115,
+        7
+      ]
+    ],
+    "8": [
+      [
+        114,
+        46
+      ],
+      [
+        115,
+        8
+      ]
+    ],
+    "9": [
+      [
+        113,
+        38
+      ],
+      [
+        115,
+        9
+      ]
+    ],
+    "10": [
+      [
+        115,
+        40
+      ],
+      [
+        114,
+        10
+      ]
+    ],
+    "11": [
+      [
+        114,
+        3
+      ],
+      [
+        112,
+        11
+      ]
+    ],
+    "12": [
+      [
+        113,
+        46
+      ],
+      [
+        115,
+        12
+      ]
+    ],
+    "13": [
+      [
+        115,
+        4
+      ],
+      [
+        111,
+        13
+      ]
+    ],
+    "14": [
+      [
+        112,
+        2
+      ],
+      [
+        114,
+        14
+      ]
+    ],
+    "15": [
+      [
+        111,
+        4
+      ],
+      [
+        115,
+        15
+      ]
+    ],
+    "16": [
+      [
+        111,
+        52
+      ],
+      [
+        114,
+        16
+      ]
+    ],
+    "17": [
+      [
+        114,
+        6
+      ],
+      [
+        112,
+        17
+      ]
+    ],
+    "18": [
+      [
+        115,
+        2
+      ],
+      [
+        113,
+        18
+      ]
+    ],
+    "19": [
+      [
+        112,
+        5
+      ],
+      [
+        115,
+        19
+      ]
+    ],
+    "20": [
+      [
+        115,
+        44
+      ],
+      [
+        113,
+        20
+      ]
+    ],
+    "21": [
+      [
+        112,
+        8
+      ],
+      [
+        111,
+        21
+      ]
+    ],
+    "22": [
+      [
+        114,
+        55
+      ],
+      [
+        115,
+        22
+      ]
+    ],
+    "23": [
+      [
+        113,
+        38
+      ],
+      [
+        111,
+        23
+      ]
+    ],
+    "24": [
+      [
+        114,
+        9
+      ],
+      [
+        112,
+        24
+      ]
+    ],
+    "25": [
+      [
+        113,
+        7
+      ],
+      [
+        111,
+        25
+      ]
+    ],
+    "26": [
+      [
+        115,
+        44
+      ],
+      [
+        114,
+        26
+      ]
+    ],
+    "27": [
+      [
+        115,
+        46
+      ],
+      [
+        113,
+        27
+      ]
+    ],
+    "28": [
+      [
+        114,
+        51
+      ],
+      [
+        112,
+        28
+      ]
+    ],
+    "29": [
+      [
+        112,
+        7
+      ],
+      [
+        115,
+        29
+      ]
+    ],
+    "30": [
+      [
+        113,
+        6
+      ],
+      [
+        111,
+        30
+      ]
+    ],
+    "31": [
+      [
+        114,
+        53
+      ],
+      [
+        113,
+        29
+      ]
+    ],
+    "32": [
+      [
+        114,
+        63
+      ],
+      [
+        115,
+        31
+      ]
+    ],
+    "33": [
+      [
+        112,
+        51
+      ],
+      [
+        113,
+        33
+      ]
+    ],
+    "34": [
+      [
+        113,
+        40
+      ],
+      [
+        111,
+        34
+      ]
+    ],
+    "35": [
+      [
+        115,
+        64
+      ],
+      [
+        114,
+        35
+      ]
+    ],
+    "36": [
+      [
+        112,
+        51
+      ],
+      [
+        113,
+        36
+      ]
+    ]
+  },
+  "constructedIntegration": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [
+      [
+        112,
+        47
+      ],
+      [
+        115,
+        42
+      ]
+    ],
+    "6": [],
+    "7": [
+      [
+        112,
+        54
+      ]
+    ],
+    "8": [
+      [
+        114,
+        46
+      ]
+    ],
+    "9": [
+      [
+        113,
+        38
+      ]
+    ],
+    "10": [
+      [
+        115,
+        40
+      ]
+    ],
+    "11": [],
+    "12": [
+      [
+        113,
+        46
+      ]
+    ],
+    "13": [
+      [
+        115,
+        40
+      ]
+    ],
+    "14": [],
+    "15": [],
+    "16": [
+      [
+        111,
+        52
+      ]
+    ],
+    "17": [],
+    "18": [],
+    "19": [
+      [
+        112,
+        47
+      ]
+    ],
+    "20": [
+      [
+        115,
+        44
+      ]
+    ],
+    "21": [],
+    "22": [
+      [
+        114,
+        55
+      ]
+    ],
+    "23": [
+      [
+        113,
+        38
+      ]
+    ],
+    "24": [],
+    "25": [],
+    "26": [],
+    "27": [],
+    "28": [],
+    "29": [],
+    "30": [],
+    "31": [
+      [
+        114,
+        53
+      ]
+    ],
+    "32": [
+      [
+        114,
+        63
+      ]
+    ],
+    "33": [
+      [
+        112,
+        51
+      ]
+    ],
+    "34": [
+      [
+        113,
+        40
+      ]
+    ],
+    "35": [],
+    "36": [
+      [
+        112,
+        51
+      ]
+    ]
+  },
+  "totalPractice": 252,
+  "supplementGaps": 0,
+  "placeholders": [],
+  "regression": {
+    "officialQuestions": [
+      326,
+      326
+    ],
+    "choice": [
+      275,
+      275
+    ],
+    "constructed": [
+      51,
+      51
+    ]
+  },
+  "status": "PASS"
+}

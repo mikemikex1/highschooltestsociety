@@ -1,0 +1,48 @@
+{
+  "batch": "D",
+  "round": "R2",
+  "mode": "independent-qa",
+  "approvedChecked": "24 / 24",
+  "goldL26": "PASS",
+  "hardGates": {
+    "historicalFactErrors": 0,
+    "chronologyErrors": 0,
+    "anachronisms": 0,
+    "internalOptionContradictions": 0,
+    "commandRubricMismatches": 0,
+    "weakAcceptableAnswerVariants": 0,
+    "materialAnswerConflicts": 0,
+    "answerExplanationConflicts": 0,
+    "unsupportedCausalClaims": 0,
+    "unsupportedEvidence": 0,
+    "multipleValidAnswers": 0
+  },
+  "priorityBlockers": [
+    {"id": "L19-P7", "status": "PASS"},
+    {"id": "L21-P7", "status": "PASS"},
+    {"id": "L22-P7", "status": "PASS"},
+    {"id": "L23-P7", "status": "PASS"},
+    {"id": "L25-P7", "status": "PASS"},
+    {"id": "L26-P7", "status": "PASS"},
+    {"id": "L29-P7", "status": "PASS"},
+    {"id": "L30-P7", "status": "PASS"}
+  ],
+  "goldLesson26": {
+    "status": "PASS",
+    "chronology": "洋務 < 甲午 < 戊戌 < 義和團／八國聯軍 < 清末新政 < 革命",
+    "newPolicies": "清末新政 is explicitly placed after the Boxer Rebellion and Eight-Nation Alliance intervention, beginning in 1901."
+  },
+  "regression": {
+    "official": "326 / 326",
+    "choice": "275 / 275",
+    "constructed": "51 / 51",
+    "practice": "252 / 252",
+    "status": "PASS"
+  },
+  "importExecuted": "NO",
+  "reportsPreserved": [
+    "SOCIAL_BATCH_D_INDEPENDENT_QA.md",
+    "social-batch-d-independent-qa.json"
+  ],
+  "status": "PASS"
+}

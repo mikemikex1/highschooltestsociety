@@ -1,0 +1,50 @@
+{
+  "report": "SOCIAL_DUAL_MODE_ARCHITECTURE_INDEPENDENT_QA",
+  "status": "FAIL",
+  "readOnly": true,
+  "gates": {
+    "curriculumMode": "PASS",
+    "pastExamsMode": "PASS",
+    "modeSwitch": "PASS",
+    "curriculumSidebar": "FAIL",
+    "examSidebar": "PASS",
+    "hashRestore": "PASS",
+    "browserBackForward": "PASS",
+    "invalidHashFallback": "PASS",
+    "curriculumToExam": "PASS",
+    "examToCurriculum": "PASS",
+    "atomicQuestionGroups": "PASS",
+    "onlyCurrentCurriculumUnitMounted": "PASS",
+    "onlyCurrentExamQuestionOrGroupMounted": "PASS",
+    "choicePreSubmitLeaks": 0,
+    "constructedPreConfirmLeaks": 0,
+    "answerStateIsolation": "PASS",
+    "mobile390": "PASS",
+    "tablet768": "PASS",
+    "desktop1440": "PASS",
+    "accessibility": "PASS",
+    "sourceIntegrity": "PASS",
+    "regression": "PASS"
+  },
+  "counts": {
+    "lessons": 36,
+    "official": 326,
+    "choice": 275,
+    "constructed": 51,
+    "practice": 252,
+    "approvedImport": 72,
+    "gold": 12,
+    "legacyP7": 0,
+    "officialAnswerMismatch": 0
+  },
+  "blockers": [
+    {
+      "id": "DM-001",
+      "area": "Curriculum sidebar",
+      "problem": "Runtime headings are 解題底層, 公民與社會, 歷史, 地理.",
+      "expected": "A 解題底層, B 公民經濟, C 歷史, D 地理",
+      "actual": "No A/B/C/D prefixes; second heading is 公民與社會.",
+      "why": "Required curriculum sidebar taxonomy and labels are not met."
+    }
+  ]
+}

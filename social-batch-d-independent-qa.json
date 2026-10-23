@@ -1,0 +1,37 @@
+{
+  "batch": "D",
+  "mode": "independent-qa",
+  "approvedChecked": "24 / 24",
+  "goldL26": "PASS",
+  "hardGates": {
+    "historicalFactErrors": 0,
+    "chronologyErrors": 0,
+    "anachronisms": 0,
+    "internalOptionContradictions": 0,
+    "commandRubricMismatches": 8,
+    "materialAnswerConflicts": 0,
+    "answerExplanationConflicts": 0,
+    "unsupportedCausalClaims": 0,
+    "unsupportedEvidence": 0,
+    "multipleValidAnswers": 0
+  },
+  "regression": {
+    "official": "326 / 326",
+    "choice": "275 / 275",
+    "constructed": "51 / 51",
+    "practice": "252 / 252",
+    "status": "PASS"
+  },
+  "importExecuted": "NO",
+  "blockers": [
+    {"id":"L19-P7","field":"acceptableAnswers[0]","problem":"Does not require the source-background limitation required by the prompt.","why":"A complete answer must include supported claim, unsupported extension, and author/source limitation."},
+    {"id":"L21-P7","field":"acceptableAnswers[0]","problem":"Accepts period labels without concrete material evidence.","why":"The prompt requires one evidence clue for each of 甲、乙、丙."},
+    {"id":"L22-P7","field":"acceptableAnswers[0]","problem":"Accepts stage labels without policy evidence and purpose/effect.","why":"The prompt requires each policy to be tied to its content and colonial function."},
+    {"id":"L23-P7","field":"acceptableAnswers[1]","problem":"Can be read as accepting causality without the required sequence.","why":"The prompt requires ordering control, social pressure, and opening before the causal statement."},
+    {"id":"L25-P7","field":"acceptableAnswers[1]","problem":"Can be read as accepting only a result.","why":"The prompt requires the population-land-policy-transport mechanism."},
+    {"id":"L26-P7","field":"acceptableAnswers[1]","problem":"Accepts only a depth shorthand.","why":"The prompt requires identifying 甲乙丙丁 and citing policy/goal evidence."},
+    {"id":"L29-P7","field":"acceptableAnswers[1]","problem":"Accepts only restriction vocabulary.","why":"The prompt requires both the rights claim and the coexistence gap."},
+    {"id":"L30-P7","field":"scoringPoints[2-3]","problem":"Rubric requires乙 plus甲或丙 although the prompt asks one event.","why":"The scoring requirements exceed the explicit command."}
+  ],
+  "status": "FAIL"
+}

@@ -1,0 +1,61 @@
+{
+  "qa": "SOCIAL 4A-R3 INDEPENDENT QA",
+  "status": "PASS",
+  "readOnly": true,
+  "geometry": {
+    "curriculum390": {
+      "innerWidth": 390,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "overflow": false,
+      "selector": {
+        "left": 123.48,
+        "right": 251.19,
+        "width": 127.71,
+        "computedWidth": "127.708px",
+        "computedMaxWidth": "100%",
+        "computedMinWidth": "0px",
+        "computedBoxSizing": "border-box"
+      },
+      "unexpectedOverflowElements": 0
+    },
+    "curriculum768": {"clientWidth": 753, "scrollWidth": 753, "overflow": false},
+    "curriculum1440": {"clientWidth": 1425, "scrollWidth": 1425, "overflow": false},
+    "exam390": {"clientWidth": 375, "scrollWidth": 375, "overflow": false}
+  },
+  "cssChecks": {
+    "computedMinWidthFixed": "PASS",
+    "winningRuleOrder": "PASS",
+    "overflowHidingHack": "NO",
+    "noLater260pxRule": "PASS"
+  },
+  "sidebar": {
+    "curriculumLabels": ["A 解題底層", "B 公民經濟", "C 歷史", "D 地理"],
+    "lessonPartition": {"A": [1, 4], "B": [5, 18], "C": [19, 30], "D": [31, 36]},
+    "examSidebar": "PASS"
+  },
+  "coreRegression": {
+    "modeSwitch": "PASS",
+    "hashRestore": "PASS",
+    "browserBackForward": "PASS",
+    "crossLinks": "PASS",
+    "atomicGroups": "PASS",
+    "currentCurriculumMount": "PASS",
+    "currentExamMount": "PASS",
+    "choicePreSubmitLeaks": 0,
+    "constructedPreConfirmLeaks": 0
+  },
+  "frozenCounts": {
+    "lessons": "36/36",
+    "official": "326/326",
+    "choice": "275/275",
+    "constructed": "51/51",
+    "practice": "252/252",
+    "approvedImport": "72/72",
+    "gold": "12/12",
+    "legacyP7": 0,
+    "officialAnswerMismatch": 0
+  },
+  "sourceIntegrity": "PASS",
+  "regression": "PASS"
+}

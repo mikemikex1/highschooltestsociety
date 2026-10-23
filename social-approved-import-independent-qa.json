@@ -1,0 +1,37 @@
+{
+  "expectedReplacements": 72,
+  "matched": 72,
+  "missing": 0,
+  "extra": 0,
+  "fieldDrift": 0,
+  "goldExpected": 12,
+  "goldMatched": 12,
+  "goldDrift": 0,
+  "legacyP7Pending": 0,
+  "runtimeAuthority": "PASS",
+  "legacyRuntimeOverride": 0,
+  "preSubmitAnswerLeaks": 0,
+  "official": "326 / 326",
+  "choice": "275 / 275",
+  "constructed": "51 / 51",
+  "practice": "252 / 252",
+  "officialAnswerMismatch": 0,
+  "officialStemsMissing": 0,
+  "duplicatePracticeIds": 0,
+  "missingPracticeIds": 0,
+  "importExecuted": "NO",
+  "officialAnswerAuthority": "PASS",
+  "auditIntegrity": "FAIL",
+  "regression": "PASS",
+  "status": "FAIL",
+  "blockers": [
+    {
+      "id": "B-IMPORT-001",
+      "section": "Audit integrity",
+      "field": "audit-integrity-recovery-report.json.auditScriptModifiedDuringRemediation / gateWeakened",
+      "approvedValue": "false / immutable audit gates preserved",
+      "canonicalRuntimeValue": "true / gate weakened according to existing integrity evidence",
+      "whyMismatch": "Existing integrity evidence records post-remediation QA script modification and weakened gates, so the required audit-integrity gate cannot pass."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "batchesImported": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "practiceExpected": 72,
+  "practiceMatched": 72,
+  "practiceMissing": [],
+  "practiceExtra": [],
+  "fieldDrift": [],
+  "goldExpected": 12,
+  "goldMatched": 12,
+  "goldMissing": [],
+  "goldDrift": [],
+  "legacyP7Pending": 0,
+  "official": 326,
+  "choice": 275,
+  "constructed": 51,
+  "practice": 252,
+  "answerLeaks": 0,
+  "runtimeAuthority": true,
+  "regression": true
+}

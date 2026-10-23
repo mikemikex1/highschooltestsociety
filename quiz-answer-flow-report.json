@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": {
+    "officialCorrectSubmit": true,
+    "officialWrongSubmit": true,
+    "originalCorrectSubmit": true,
+    "originalWrongSubmit": true,
+    "reset": true,
+    "preSubmitDomNoAnswer": true,
+    "postSubmitAnswerAppears": true,
+    "constructedPreSubmitHidden": true,
+    "constructedPostSubmitReveal": true,
+    "exactSetComparison": true
+  },
+  "counts": {
+    "official": 326,
+    "choice": 275,
+    "constructed": 51,
+    "practice": 252
+  },
+  "note": "Browser smoke validation additionally confirmed 115-q1 pre-submit hidden, post-submit reveal, reset hidden; 115-q40 constructed pre-submit hidden."
+}

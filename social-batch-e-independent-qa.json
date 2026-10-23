@@ -1,0 +1,46 @@
+{
+  "batch": "E",
+  "qaType": "independent-geography-review",
+  "approvedChecked": 12,
+  "approvedTotal": 12,
+  "gold": {
+    "L32": "PASS",
+    "L36": "PASS"
+  },
+  "hardGates": {
+    "spatialLogicErrors": 0,
+    "mapReadingErrors": 0,
+    "unitErrors": 0,
+    "scaleErrors": 0,
+    "materialAnswerConflicts": 1,
+    "answerExplanationConflicts": 0,
+    "unsupportedSpatialInference": 0,
+    "commandRubricMismatches": 0,
+    "weakAcceptableAnswerVariants": 1,
+    "multipleValidAnswers": 0
+  },
+  "regression": {
+    "official": "326 / 326",
+    "choice": "275 / 275",
+    "constructed": "51 / 51",
+    "practice": "252 / 252",
+    "status": "PASS",
+    "importExecuted": "NO"
+  },
+  "blockers": [
+    {
+      "id": "B-E-001",
+      "field": "L34-P7.examReadyAnswer",
+      "problem": "Uses 100 tons and exact daily totals 34,000 and 26,000 although L34-P7 material does not state daily tonnage.",
+      "whyWrong": "Only per-ton comparison is supported by the material; exact daily totals require an unstated quantity."
+    },
+    {
+      "id": "B-E-002",
+      "field": "L34-P7.acceptableAnswers[1]",
+      "problem": "Allows cost and population comparison without the requested distinction between threshold and range.",
+      "whyWrong": "A complete accepted answer omits a core prompt/rubric requirement."
+    }
+  ],
+  "status": "FAIL",
+  "importExecuted": "NO"
+}

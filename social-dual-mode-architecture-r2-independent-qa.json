@@ -1,0 +1,56 @@
+{
+  "qa": "SOCIAL 4A-R2 INDEPENDENT QA",
+  "status": "FAIL",
+  "readOnly": true,
+  "responsive": {
+    "curriculum390": {
+      "scrollWidth": 383,
+      "clientWidth": 375,
+      "overflow": true,
+      "unitSelector": {"left": 123.48, "right": 383.48, "width": 260},
+      "unexpectedOverflowElements": 1,
+      "unexpectedOverflowDetails": [{"tag": "SELECT", "selector": ".single-unit-nav select"}]
+    },
+    "curriculum768": {"scrollWidth": 753, "clientWidth": 753, "overflow": false},
+    "curriculum1440": {"scrollWidth": 1425, "clientWidth": 1425, "overflow": false},
+    "exam390": {"scrollWidth": 375, "clientWidth": 375, "overflow": false}
+  },
+  "sidebar": {
+    "curriculumLabels": ["A 解題底層", "B 公民經濟", "C 歷史", "D 地理"],
+    "lessonPartition": {"A": [1, 4], "B": [5, 18], "C": [19, 30], "D": [31, 36]},
+    "examYears": [115, 114, 113, 112, 111],
+    "mutualExclusion": "PASS"
+  },
+  "coreRegression": {
+    "modeSwitch": "PASS",
+    "hashRestore": "PASS",
+    "browserBackForward": "PASS",
+    "crossLinks": "PASS",
+    "atomicGroups": "PASS",
+    "currentCurriculumMount": "PASS",
+    "currentExamMount": "PASS",
+    "choicePreSubmitLeaks": 0,
+    "constructedPreConfirmLeaks": 0
+  },
+  "frozenCounts": {
+    "lessons": "36/36",
+    "official": "326/326",
+    "choice": "275/275",
+    "constructed": "51/51",
+    "practice": "252/252",
+    "approvedImport": "72/72",
+    "gold": "12/12",
+    "legacyP7": 0,
+    "officialAnswerMismatch": 0
+  },
+  "sourceIntegrity": "PASS",
+  "blockers": [
+    {
+      "id": "R2-001",
+      "area": "390px curriculum runtime",
+      "problem": "The unit selector extends beyond the viewport.",
+      "expected": "scrollWidth <= clientWidth; selector contained; zero unexpected overflow elements",
+      "actual": "scrollWidth=383; clientWidth=375; selector right=383.48px; unexpected overflow elements=1"
+    }
+  ]
+}

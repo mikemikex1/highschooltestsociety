@@ -1,0 +1,39 @@
+{
+  "historicalIntegrityIncidentPreserved": "YES",
+  "strictBaseline": "PASS",
+  "frozenHashes": "PASS",
+  "hashMismatches": 0,
+  "currentGateWeakeningDetected": 2,
+  "goldStrict": "PASS",
+  "answerAuthority": "PASS",
+  "preSubmitLeaks": 0,
+  "singleView": "PASS",
+  "approvedImport": "72 / 72",
+  "fieldDrift": 0,
+  "goldImport": "12 / 12",
+  "legacyP7": 0,
+  "official": "326 / 326",
+  "choice": "275 / 275",
+  "constructed": "51 / 51",
+  "practice": "252 / 252",
+  "regression": "PASS",
+  "status": "FAIL",
+  "blockers": [
+    {
+      "id": "B-INTEGRITY-R2-001",
+      "script": "qa-strict-integrity.cjs",
+      "gate": "Strict verifier baseline handling",
+      "problem": "The verifier writes the baseline manifest and freeze artifacts instead of comparing against existing frozen values.",
+      "expectedStrictBehavior": "Read-only comparison with the pre-existing manifest and freeze.",
+      "actualBehavior": "Rebuilds and overwrites those artifacts during execution."
+    },
+    {
+      "id": "B-INTEGRITY-R2-002",
+      "script": "qa-strict-integrity.cjs",
+      "gate": "Strict verifier status claims",
+      "problem": "currentStrictGateRestored, currentGateWeakened, and currentScriptHashesFrozen are hardcoded.",
+      "expectedStrictBehavior": "Derive status from independent historical and hash checks.",
+      "actualBehavior": "Reports fixed status values rather than verifying them."
+    }
+  ]
+}

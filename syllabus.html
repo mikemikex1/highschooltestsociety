@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="111～115 學測社會 36 課課綱完整教學">
+  <title>學測社會｜36 課課綱教學</title>
+  <link rel="stylesheet" href="syllabus.css">
+  <link rel="stylesheet" href="lesson5.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">學測社會 111～115｜36 課完整課程</p>
+      <h1>社會課綱教學筆記</h1>
+      <p class="subtitle">課綱重點 × 老師講解 × 真題型例題 × 練習解析</p>
+      <p class="intro">依「學測社會_網站教學內容MD.zip」的 36 課合併教材製作。每頁 4 課，先看本課要會什麼，再展開完整內容。</p>
+      <div class="hero-actions"><a class="button" href="index.html">回到五年歷屆題</a><button id="collapseBtn" type="button">全部展開</button></div>
+    </div>
+  </header>
+  <nav class="toolbar" aria-label="課程工具">
+    <div class="toolbar-inner">
+      <label class="search">搜尋課程或關鍵字 <input id="search" type="search" placeholder="例如：供需、GIS、史料、非選"></label>
+      <label class="filter">課程篩選 <select id="filter"><option value="all">全部 36 課</option><option value="解題底層">解題底層</option><option value="公民與社會">公民與社會</option><option value="歷史">歷史</option><option value="地理">地理</option></select></label>
+      <span id="progress" class="progress">已完成 0 / 36 課</span>
+    </div>
+  </nav>
+  <main class="layout">
+    <aside class="sidebar"><h2>36 課目錄</h2><div id="toc"></div></aside>
+    <section class="content">
+      <div class="notice"><strong>使用方式：</strong>每課先讀「要背／要理解」，再看老師講解與歷屆例題；做完課堂練習後，用答案解析訂正。課程卡中的內容全部保留，沒有只抽代表課。</div>
+      <div id="lessons" class="lessons"></div>
+      <nav id="pager" class="pager" aria-label="課程分頁"></nav>
+      <p class="source">教材來源：目前資料夾中的 <code>學測社會_網站教學內容MD.zip</code>，使用其中 36 課網站教學內容合併版。</p>
+    </section>
+  </main>
+  <button id="topBtn" class="top" type="button" aria-label="回到頂端">↑</button>
+  <script src="data/curriculum.js"></script>
+  <script src="data/lesson5.js"></script>
+  <script src="syllabus.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "p6": {
+    "replacePracticeId": "Lxx-P6",
+    "lessonId": 0,
+    "practiceType": "advanced",
+    "material": "",
+    "prompt": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "reasoning": "",
+    "optionAnalysis": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "takeaway": "",
+    "editorialStatus": "APPROVED"
+  },
+  "p7": {
+    "replacePracticeId": "Lxx-P7",
+    "lessonId": 0,
+    "practiceType": "constructed",
+    "material": "",
+    "prompt": "",
+    "examReadyAnswer": "",
+    "scoringPoints": [],
+    "acceptableAnswers": [],
+    "commonMistakes": [],
+    "editorialStatus": "APPROVED"
+  },
+  "teaching": {
+    "lessonId": 0,
+    "sectionId": "",
+    "currentContent": "",
+    "requiredReplacement": "",
+    "replacementContent": "",
+    "editorialStatus": "APPROVED"
+  }
+}

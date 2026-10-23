@@ -1,0 +1,213 @@
+{
+  "generatedAt": "2026-10-21T18:52:12.054Z",
+  "projectRoot": "C:\\Users\\Daming\\Documents\\香魚學測\\社會快速複習",
+  "lessons": {
+    "actual": 36,
+    "expected": 36,
+    "status": "PASS",
+    "detailedLesson": [
+      5
+    ],
+    "legacyLessonCount": 35,
+    "contentFailLessons": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  "questions": {
+    "counts": {
+      "111": {
+        "actual": 67,
+        "expected": 67,
+        "status": "PASS"
+      },
+      "112": {
+        "actual": 66,
+        "expected": 66,
+        "status": "PASS"
+      },
+      "113": {
+        "actual": 64,
+        "expected": 64,
+        "status": "PASS"
+      },
+      "114": {
+        "actual": 64,
+        "expected": 64,
+        "status": "PASS"
+      },
+      "115": {
+        "actual": 65,
+        "expected": 65,
+        "status": "PASS"
+      }
+    },
+    "total": 326,
+    "expectedTotal": 326,
+    "missingQuestions": [],
+    "duplicateQuestions": [],
+    "answerMismatch": [],
+    "malformedOptions": []
+  },
+  "choiceAnalysis": {
+    "complete": 275,
+    "total": 275,
+    "missingChoiceAnalysis": [],
+    "needsReview": [],
+    "status": "PASS"
+  },
+  "constructed": {
+    "counts": {
+      "111": {
+        "actual": 10,
+        "expected": 10,
+        "status": "PASS"
+      },
+      "112": {
+        "actual": 10,
+        "expected": 10,
+        "status": "PASS"
+      },
+      "113": {
+        "actual": 10,
+        "expected": 10,
+        "status": "PASS"
+      },
+      "114": {
+        "actual": 10,
+        "expected": 10,
+        "status": "PASS"
+      },
+      "115": {
+        "actual": 11,
+        "expected": 11,
+        "status": "PASS"
+      }
+    },
+    "total": 51,
+    "expectedTotal": 51,
+    "missingFields": [],
+    "needsReview": [
+      "111 Q48",
+      "111 Q50",
+      "111 Q52",
+      "111 Q54",
+      "111 Q56",
+      "111 Q58",
+      "111 Q60",
+      "111 Q63",
+      "111 Q64",
+      "111 Q67",
+      "112 Q47",
+      "112 Q49",
+      "112 Q51",
+      "112 Q54",
+      "112 Q56",
+      "112 Q59",
+      "112 Q61",
+      "112 Q62",
+      "112 Q65",
+      "112 Q66",
+      "113 Q38",
+      "113 Q40",
+      "113 Q43",
+      "113 Q46",
+      "113 Q49",
+      "113 Q50",
+      "113 Q53",
+      "113 Q57",
+      "113 Q60",
+      "113 Q64",
+      "114 Q46",
+      "114 Q49",
+      "114 Q51",
+      "114 Q53",
+      "114 Q55",
+      "114 Q56",
+      "114 Q58",
+      "114 Q61",
+      "114 Q63",
+      "114 Q64",
+      "115 Q40",
+      "115 Q42",
+      "115 Q44",
+      "115 Q46",
+      "115 Q49",
+      "115 Q52",
+      "115 Q54",
+      "115 Q56",
+      "115 Q60",
+      "115 Q63",
+      "115 Q65"
+    ],
+    "status": "FAIL"
+  },
+  "technical": {
+    "indexHtml": "PASS",
+    "offlineReferences": "PASS",
+    "missingLocalReferences": [],
+    "externalDependencies": "PASS",
+    "consoleErrors": "NOT_AUTOMATED_IN_SCRIPT",
+    "mobileDesktop": "PASS_BROWSER_SMOKE_TEST",
+    "githubPagesPackage": "FAIL",
+    "pdfFilesInPackage": 0,
+    "pdfAudit": "FAIL"
+  },
+  "answerLeak": "NOT_AUTOMATED_IN_SCRIPT",
+  "browserEvidence": {
+    "index": {
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "yearTabs": 5,
+      "renderedCardsOnFirstPage": 10,
+      "horizontalOverflow": false
+    },
+    "syllabus": {
+      "tocButtons": 36,
+      "renderedLessonsOnFirstPage": 4,
+      "pagination": "9 pages x 4 lessons",
+      "horizontalOverflow": false
+    }
+  },
+  "blockers": [
+    "35 lessons are legacy/summary format; only Lesson 5 has the richer teaching schema.",
+    "All 51 constructed-response questions remain needsReview=true.",
+    "No docs/index.html + docs/.nojekyll package exists inside the social project folder."
+  ]
+}

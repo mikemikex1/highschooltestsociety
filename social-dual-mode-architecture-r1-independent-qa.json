@@ -1,0 +1,59 @@
+{
+  "report": "SOCIAL_DUAL_MODE_ARCHITECTURE_R1_INDEPENDENT_QA",
+  "status": "FAIL",
+  "readOnly": true,
+  "gates": {
+    "curriculumSidebarLabels": "PASS",
+    "A解題底層": "PASS",
+    "B公民經濟": "PASS",
+    "C歷史": "PASS",
+    "D地理": "PASS",
+    "lessonPartition": "PASS",
+    "examSidebar": "PASS",
+    "sidebarMutualExclusion": "PASS",
+    "modeSwitch": "PASS",
+    "hashRestore": "PASS",
+    "browserBackForward": "PASS",
+    "crossLinks": "PASS",
+    "atomicGroups": "PASS",
+    "onlyCurrentCurriculumUnitMounted": "PASS",
+    "onlyCurrentExamQuestionOrGroupMounted": "PASS",
+    "choicePreSubmitLeaks": 0,
+    "constructedPreConfirmLeaks": 0,
+    "mobile390": "FAIL",
+    "desktop1440": "PASS",
+    "sourceIntegrity": "PASS",
+    "regression": "PASS"
+  },
+  "responsiveEvidence": {
+    "mobile390": {
+      "scrollWidth": 383,
+      "clientWidth": 375,
+      "overflow": true,
+      "offendingElement": "curriculum unit select",
+      "observedWidth": 260
+    },
+    "desktop1440": {"overflow": false}
+  },
+  "counts": {
+    "lessons": "36 / 36",
+    "official": "326 / 326",
+    "choice": "275 / 275",
+    "constructed": "51 / 51",
+    "practice": "252 / 252",
+    "approvedImport": "72 / 72",
+    "gold": "12 / 12",
+    "legacyP7": 0,
+    "officialAnswerMismatch": 0
+  },
+  "blockers": [
+    {
+      "id": "R1-001",
+      "area": "Responsive spot check, curriculum mode",
+      "problem": "The curriculum unit select overflows at 390px.",
+      "expected": "No horizontal overflow at 390px.",
+      "actual": "scrollWidth 383px versus clientWidth 375px; select right edge approximately 383px.",
+      "why": "Fails the explicit 390px responsive gate."
+    }
+  ]
+}

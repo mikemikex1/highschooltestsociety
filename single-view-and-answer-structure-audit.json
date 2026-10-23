@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-10-23T08:20:03.008Z",
+  "status": "PASS",
+  "lessons": 36,
+  "units": "built at runtime from canonical lesson content",
+  "checks": {
+    "lessonCount": true,
+    "builderExists": true,
+    "onlyCurrentUnitMounted": true,
+    "atomicQuestionGroups": true,
+    "materialAndQuestionTogether": true,
+    "unitTypes": true,
+    "hashRestore": true,
+    "prevNext": true,
+    "mobileDrawer": true,
+    "desktopSidebar": true,
+    "contentWidth": true,
+    "regressionOfficial": true,
+    "regressionChoice": true,
+    "regressionConstructed": true,
+    "regressionPractice": true
+  },
+  "answerGate": {
+    "generatedAt": "2026-10-23T08:19:59.430Z",
+    "authority": {
+      "officialAnswerMismatches": [],
+      "missingAnswer": [],
+      "missingStem": [],
+      "malformedOptions": []
+    },
+    "constructed": {
+      "checked": 51,
+      "unresolved": [],
+      "missingFields": [],
+      "missingSources": []
+    },
+    "originalPractice": {
+      "checked": 252,
+      "missingStems": [],
+      "missingAnswers": [],
+      "multipleValidAnswers": [],
+      "answerNotInOptions": [],
+      "explanationConflicts": [],
+      "missingConstructedFields": []
+    },
+    "answerLeak": {
+      "preSubmitLeaks": [],
+      "postSubmitReveal": "PASS",
+      "resetHidesAnswer": "PASS",
+      "staticEvidence": []
+    },
+    "regression": {
+      "official": 326,
+      "choice": 275,
+      "constructed": 51,
+      "practice": 252
+    },
+    "legacyP7SchemaPending": 36,
+    "finalStatus": "PASS"
+  },
+  "regression": {
+    "official": 326,
+    "choice": 275,
+    "constructed": 51,
+    "practice": 252
+  }
+}

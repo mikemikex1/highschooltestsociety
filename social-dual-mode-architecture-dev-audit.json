@@ -1,0 +1,62 @@
+{
+  "schema": "social-dual-mode-architecture-dev-audit/v1",
+  "generatedAt": "2026-10-23T09:07:56.772Z",
+  "status": "PASS",
+  "checks": {
+    "curriculumMode": true,
+    "examMode": true,
+    "modeSwitch": true,
+    "curriculumSidebar": true,
+    "examSidebar": true,
+    "hashRestore": true,
+    "crossLinkCurriculumExam": true,
+    "crossLinkExamCurriculum": true,
+    "atomicGroups": true,
+    "onlyCurrentCurriculumUnit": true,
+    "onlyCurrentExamGroup": true,
+    "responsive390": true,
+    "responsive768": true,
+    "responsive1440": true,
+    "noYearTabsInIndex": true,
+    "officialCount": true,
+    "choiceCount": true,
+    "constructedCount": true,
+    "practiceCount": true,
+    "approvedImport": true,
+    "legacyP7": true,
+    "answerLeaks": true,
+    "strictIntegrity": true
+  },
+  "browserSmoke": {
+    "curriculumDefault": true,
+    "exam113Question17": true,
+    "invalidCurriculumFallback": true,
+    "modeSwitch": true,
+    "reloadHashRestore": true,
+    "backForward": true,
+    "mobile390": true,
+    "tablet768": true,
+    "desktop1440": true
+  },
+  "preSubmitLeaks": 0,
+  "regression": {
+    "lessons": 36,
+    "official": 326,
+    "choice": 275,
+    "constructed": 51,
+    "practice": 252,
+    "approvedImport": 72,
+    "gold": 12,
+    "legacyP7": 0,
+    "officialAnswerMismatch": 0,
+    "preSubmitLeaks": 0
+  },
+  "filesChanged": [
+    "index.html",
+    "app.js",
+    "styles.css",
+    "qa-dual-mode-architecture.cjs",
+    "SOCIAL_DUAL_MODE_ARCHITECTURE_DEV_AUDIT.md",
+    "social-dual-mode-architecture-dev-audit.json"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "social-dual-mode-architecture-r3-dev-audit/v1",
+  "status": "PASS",
+  "rootCauseIdentified": true,
+  "rootCause": "The R2 mobile rule matched the selector but was placed before the later legacy .single-unit-nav select rule. Equal-specificity source order restored min-width:260px at runtime.",
+  "r2OverrideFailureReason": "Rule order: the original mobile .single-unit-nav select declaration appeared later and reset max-width while leaving the earlier 260px min-width effective.",
+  "winningCssRuleBeforeFix": {
+    "selector": ".single-unit-nav select",
+    "properties": "min-width:260px; max-width:48vw",
+    "media": "base rule, followed by the later mobile rule with max-width:none",
+    "specificity": "same class-element specificity as the R2 override",
+    "order": "later than the R2 override"
+  },
+  "winningCssRuleAfterFix": {
+    "selector": ".single-unit-nav select",
+    "properties": "display:block; width:100%; max-width:100%; min-width:0; box-sizing:border-box",
+    "media": "@media(max-width:850px)",
+    "order": "last, after all legacy unit-nav declarations"
+  },
+  "viewportMeasurements": {
+    "390": {
+      "innerWidth": 390,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "selectorLeft": 12,
+      "selectorRight": 363,
+      "selectorWidth": 351,
+      "overflowElements": 0,
+      "horizontalOverflow": false
+    },
+    "768": {"innerWidth": 768, "clientWidth": 753, "scrollWidth": 753, "status": "PASS"},
+    "1440": {"innerWidth": 1440, "clientWidth": 1425, "scrollWidth": 1425, "status": "PASS"}
+  },
+  "exam390": "PASS",
+  "regression": {
+    "curriculumSidebarLabels": "PASS",
+    "lessonPartition": "PASS",
+    "examSidebar": "PASS",
+    "modeSwitch": "PASS",
+    "hashRestore": "PASS",
+    "backForward": "PASS",
+    "crossLinks": "PASS",
+    "atomicGroups": "PASS",
+    "onlyCurrentCurriculumUnitMounted": "PASS",
+    "onlyCurrentExamQuestionOrGroupMounted": "PASS",
+    "preSubmitAnswerLeaks": 0,
+    "lessons": "36 / 36",
+    "official": "326 / 326",
+    "choice": "275 / 275",
+    "constructed": "51 / 51",
+    "practice": "252 / 252",
+    "approvedImport": "72 / 72",
+    "gold": "12 / 12",
+    "legacyP7": 0,
+    "officialAnswerMismatch": 0
+  },
+  "filesChanged": ["styles.css", "SOCIAL_DUAL_MODE_ARCHITECTURE_R3_DEV_AUDIT.md", "social-dual-mode-architecture-r3-dev-audit.json"]
+}

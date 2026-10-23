@@ -1,0 +1,65 @@
+{
+  "qa": "SOCIAL 4B PUDDING THEME INDEPENDENT QA",
+  "status": "PASS",
+  "readOnly": true,
+  "theme": {
+    "light": "PASS",
+    "dark": "PASS",
+    "togglePointer": "PASS",
+    "toggleEnter": "PASS",
+    "toggleSpace": "PASS",
+    "ariaPressed": "PASS",
+    "persistence": "PASS",
+    "hashUnchanged": "PASS"
+  },
+  "responsive": {
+    "320": {"clientWidth": 305, "scrollWidth": 305, "overflow": false},
+    "360": {"clientWidth": 345, "scrollWidth": 345, "overflow": false},
+    "375": {"clientWidth": 360, "scrollWidth": 360, "overflow": false},
+    "390": {"clientWidth": 375, "scrollWidth": 375, "overflow": false},
+    "412": {"clientWidth": 397, "scrollWidth": 397, "overflow": false},
+    "430": {"clientWidth": 415, "scrollWidth": 415, "overflow": false},
+    "768": {"clientWidth": 753, "scrollWidth": 753, "overflow": false},
+    "1024": {"clientWidth": 1009, "scrollWidth": 1009, "overflow": false},
+    "1440": {"clientWidth": 1425, "scrollWidth": 1425, "overflow": false},
+    "1920": {"clientWidth": 1905, "scrollWidth": 1905, "overflow": false},
+    "390Exam": {"clientWidth": 375, "scrollWidth": 375, "overflow": false}
+  },
+  "unexpectedHorizontalOverflow": 0,
+  "answerHiding": {
+    "choicePreSubmitLeaks": 0,
+    "constructedPreConfirmLeaks": 0
+  },
+  "architectureRegression": {
+    "modeSwitch": "PASS",
+    "curriculumSidebar": "PASS",
+    "examSidebar": "PASS",
+    "hashRestore": "PASS",
+    "backForward": "PASS",
+    "invalidHashFallback": "PASS",
+    "crossLinks": "PASS",
+    "atomicGroups": "PASS",
+    "currentCurriculumMount": "PASS",
+    "currentExamMount": "PASS",
+    "themeAnswerStateIsolation": "PASS"
+  },
+  "frozenCounts": {
+    "lessons": "36/36",
+    "official": "326/326",
+    "choice": "275/275",
+    "constructed": "51/51",
+    "practice": "252/252",
+    "approvedImport": "72/72",
+    "gold": "12/12",
+    "legacyP7": 0,
+    "officialAnswerMismatch": 0
+  },
+  "strictIntegrity": {
+    "verdict": "PASS",
+    "currentGateWeakening": 0,
+    "manifestMismatch": 0,
+    "freezeMismatch": 0
+  },
+  "sourceIntegrity": "PASS",
+  "regression": "PASS"
+}

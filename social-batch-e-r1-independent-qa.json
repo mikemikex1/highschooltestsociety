@@ -1,0 +1,44 @@
+{
+  "batch": "E",
+  "revision": "R1",
+  "qaType": "independent-geography-review",
+  "approvedChecked": 12,
+  "approvedTotal": 12,
+  "l34p7": {
+    "status": "PASS",
+    "unsupportedDailyQuantity": false,
+    "unsupportedDailyTotals": false,
+    "perTonComparison": {
+      "A": "340 元／噸",
+      "B": "260 元／噸"
+    },
+    "acceptableAnswersRetainThresholdRange": true
+  },
+  "gold": {
+    "L32": "PASS",
+    "L36": "PASS"
+  },
+  "hardGates": {
+    "spatialLogicErrors": 0,
+    "mapReadingErrors": 0,
+    "unitErrors": 0,
+    "scaleErrors": 0,
+    "materialAnswerConflicts": 0,
+    "answerExplanationConflicts": 0,
+    "unsupportedQuantities": 0,
+    "unsupportedSpatialInference": 0,
+    "commandRubricMismatches": 0,
+    "weakAcceptableAnswerVariants": 0,
+    "multipleValidAnswers": 0
+  },
+  "regression": {
+    "official": "326 / 326",
+    "choice": "275 / 275",
+    "constructed": "51 / 51",
+    "practice": "252 / 252",
+    "status": "PASS",
+    "importExecuted": "NO"
+  },
+  "status": "PASS",
+  "importExecuted": "NO"
+}

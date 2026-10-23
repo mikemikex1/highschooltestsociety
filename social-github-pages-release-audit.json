@@ -1,0 +1,37 @@
+{
+  "schema": "social-github-pages-release/v1",
+  "repository": "https://github.com/mikemikex1/highschooltestsociety.git",
+  "branch": "main",
+  "pagesSource": "main / docs",
+  "commit": null,
+  "push": null,
+  "publicUrl": "https://mikemikex1.github.io/highschooltestsociety/",
+  "publicRootReachable": null,
+  "docs": {
+    "sync": "PASS",
+    "runtime": "PASS",
+    "files": ["index.html", "styles.css", "app.js", "data/", "assets/"]
+  },
+  "smoke": {
+    "curriculum": "PASS",
+    "pastExams": "PASS",
+    "lightTheme": "PASS",
+    "darkTheme": "PASS",
+    "mobile390": "PASS",
+    "desktop1440": "PASS",
+    "choicePreSubmitLeaks": 0,
+    "constructedPreConfirmLeaks": 0
+  },
+  "counts": {
+    "lessons": 36,
+    "official": 326,
+    "choice": 275,
+    "constructed": 51,
+    "practice": 252,
+    "approvedImport": 72,
+    "gold": 12,
+    "legacyP7": 0,
+    "officialAnswerMismatch": 0
+  },
+  "strictIntegrity": "PASS"
+}

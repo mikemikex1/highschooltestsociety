@@ -1,0 +1,348 @@
+{
+  "generatedAt": "2026-10-22T17:49:57.936Z",
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "五年命題結構與高分策略",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 2,
+      "title": "長題幹閱讀術",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 3,
+      "title": "圖表閱讀術",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 4,
+      "title": "非選擇題採點術",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 5,
+      "title": "社會差異、不平等與社會正義",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 6,
+      "title": "多元文化、族群與身分",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 7,
+      "title": "社會規範、性別與家庭",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 8,
+      "title": "媒體、資訊與民主",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 9,
+      "title": "民主政治與公民參與",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 10,
+      "title": "憲政體制與權力分立",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 11,
+      "title": "選舉與政治制度",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 12,
+      "title": "基本權利",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 13,
+      "title": "法律基本原則",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 14,
+      "title": "民法與財產",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 15,
+      "title": "經濟Ⅰ：選擇、誘因與機會成本",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 16,
+      "title": "經濟Ⅱ：供需與市場失靈",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 17,
+      "title": "經濟Ⅲ：GDP與總體",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 18,
+      "title": "經濟Ⅳ：國際分工與全球化",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 19,
+      "title": "歷史探究方法",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 20,
+      "title": "歷史解釋與史家觀點",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 21,
+      "title": "臺灣史Ⅰ：史前至清代",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 22,
+      "title": "臺灣史Ⅱ：日治與殖民",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 23,
+      "title": "臺灣史Ⅲ：戰後臺灣",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 24,
+      "title": "中國史Ⅰ：古代國家制度",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 25,
+      "title": "中國史Ⅱ：社會經濟與人口",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 26,
+      "title": "中國史Ⅲ：近代變局",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 27,
+      "title": "世界史Ⅰ：宗教與文明交流",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 28,
+      "title": "世界史Ⅱ：帝國殖民與全球貿易",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 29,
+      "title": "世界史Ⅲ：革命、民族與權利",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 30,
+      "title": "世界史Ⅳ：世界大戰與冷戰",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 31,
+      "title": "地圖與地形判讀",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 32,
+      "title": "氣候、水文與天然災害",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 33,
+      "title": "人口、遷移與都市",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 34,
+      "title": "農業、工業與區位",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 35,
+      "title": "區域、全球化與地緣政治",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    },
+    {
+      "lesson": 36,
+      "title": "GIS、環境與永續＋總整合",
+      "p6Aligned": true,
+      "p7Aligned": true,
+      "coreConceptsAligned": true,
+      "subjectSpecific": true,
+      "status": "PASS"
+    }
+  ],
+  "summary": {
+    "lessons": 36,
+    "aligned": 36,
+    "p6Aligned": 36,
+    "p7Aligned": 36,
+    "goldQueue": 3,
+    "regressions": {
+      "official": 326,
+      "choice": 275,
+      "constructed": 51,
+      "practice": 252
+    },
+    "frozen": {
+      "otherPracticesModified": 0,
+      "lessonsModified": 0,
+      "auditScriptsModified": 0
+    },
+    "status": "PASS"
+  }
+}
