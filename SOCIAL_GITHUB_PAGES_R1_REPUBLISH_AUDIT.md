@@ -42,8 +42,13 @@ Production runtime from the 4C-R1-R2 QA-passed working tree was synchronized to 
 ## Public release
 
 - Public URL: `https://mikemikex1.github.io/highschooltestsociety/`
-- Commit: final release HEAD recorded in the release result
-- Push: recorded in the companion JSON after push
-- Public smoke: recorded after deployment propagation; this audit does not substitute for 5B Public Independent QA.
+- Commit: `79577b3be23051665f29f893accbb3f22c39e54d`
+- Push: PASS
+- Public root: PASS
+- Public supplementary route and GDP query: PASS
+- Public exam route `113/17`: PASS
+- Public L14 civics visual: PASS
+- Public basic resource smoke: PASS
+- This audit does not substitute for 5B Public Independent QA.
 
 No offline version was created. No approved source, official data, answer data, strict verifier, manifest, or freeze artifact was modified.

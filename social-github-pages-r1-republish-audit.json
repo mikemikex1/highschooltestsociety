@@ -58,15 +58,15 @@
     "historicalIncidentPreserved": true
   },
   "git": {
-    "commit": "release commit recorded as final HEAD",
-    "push": "pending"
+    "commit": "79577b3be23051665f29f893accbb3f22c39e54d",
+    "push": "PASS"
   },
   "public": {
     "url": "https://mikemikex1.github.io/highschooltestsociety/",
-    "rootReachable": "pending",
-    "supplementaryReachable": "pending",
-    "l14VisualReachable": "pending",
-    "basicResourceSmoke": "pending",
+    "rootReachable": "PASS",
+    "supplementaryReachable": "PASS",
+    "l14VisualReachable": "PASS",
+    "basicResourceSmoke": "PASS",
     "independentQa5B": "not run"
   },
   "offlineVersion": false
