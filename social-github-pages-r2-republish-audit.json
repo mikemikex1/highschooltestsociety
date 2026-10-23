@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/mikemikex1/highschooltestsociety.git",
+  "branch": "main",
+  "pagesSource": "main / docs",
+  "commit": "20a77fa512ef41cee086406193c2306dc90a05b2",
+  "push": "pending",
+  "publicUrl": "https://mikemikex1.github.io/highschooltestsociety/",
+  "docsSync": "PASS",
+  "docsParity": "PASS",
+  "supplementary": {
+    "total": 149,
+    "civics": 32,
+    "economics": 30,
+    "history": 51,
+    "geography": 36,
+    "searchTop1": {
+      "GDP": "GDP",
+      "GIS": "GIS",
+      "同盟國": "同盟國",
+      "World War II": "第二次世界大戰"
+    },
+    "childFormalRender": "PASS",
+    "historicalMembersOpponentsRender": "PASS"
+  },
+  "responsive": {
+    "320": {"scrollWidth": 305, "clientWidth": 305, "status": "PASS"},
+    "390": {"scrollWidth": 375, "clientWidth": 375, "status": "PASS"},
+    "768": {"scrollWidth": 753, "clientWidth": 753, "status": "PASS"},
+    "1440": {"scrollWidth": 1425, "clientWidth": 1425, "status": "PASS"}
+  },
+  "leaks": {"choicePreSubmit": 0, "constructedPreConfirm": 0},
+  "frozenCounts": {"lessons": 36, "official": 326, "choice": 275, "constructed": 51, "practice": 252, "approved": 72, "gold": 12, "legacyP7": 0, "officialAnswerMismatch": 0},
+  "strictIntegrity": {"status": "PASS", "currentGateWeakening": 0, "manifestMismatch": 0, "freezeMismatch": 0, "historicalIncidentPreserved": true},
+  "publicSmoke": "pending deployment after release push"
+}

@@ -226,10 +226,24 @@ function renderSupplementary() {
   var categories = { A: '公民', B: '經濟', C: '歷史', D: '地理' };
   var query = String(state.supplementQuery || '').trim().toLowerCase();
   var filtered = socialSupplement.items.filter(function (item) {
-    return (state.supplementCategory === 'all' || item.category === state.supplementCategory) && (!query || [item.term, item.plain, item.example, item.use].join(' ').toLowerCase().indexOf(query) >= 0);
-  });
+    var history = item.history || {};
+    var searchable = [item.term, item.child, item.plain, item.formal, item.example, item.use, item.examUse].concat(item.aliases || []).concat([history.time, history.actors, history.opponents, history.event, history.impact]);
+    return (state.supplementCategory === 'all' || item.category === state.supplementCategory) && (!query || searchable.join(' ').toLowerCase().indexOf(query) >= 0);
+  }).map(function (item) {
+    if (!query) return { item: item, score: 0 };
+    var q = query;
+    var term = String(item.term || '').toLowerCase();
+    var aliases = (item.aliases || []).map(function (alias) { return String(alias).toLowerCase(); });
+    var score = 10;
+    if (term === q) score = 1000;
+    else if (aliases.indexOf(q) >= 0) score = 900;
+    else if (term.indexOf(q) === 0) score = 800;
+    else if (aliases.some(function (alias) { return alias.indexOf(q) === 0; })) score = 700;
+    else if (aliases.some(function (alias) { return alias.indexOf(q) >= 0; })) score = 500;
+    return { item: item, score: score };
+  }).sort(function (a, b) { return b.score - a.score || String(a.item.term).localeCompare(String(b.item.term), 'zh-Hant'); }).map(function (entry) { return entry.item; });
   var categoryOptions = '<option value="all">全部分類</option>' + Object.keys(categories).map(function (key) { return '<option value="' + key + '" ' + (state.supplementCategory === key ? 'selected' : '') + '>' + key + ' ' + categories[key] + '</option>'; }).join('');
-  return '<section id="supplementary" class="supplementary-toolbox"><div class="section-title"><span class="eyebrow">🧰 社會科補充教材</span><h2>考前工具箱</h2></div><p class="supplement-intro">不熟的概念可用分類、搜尋或快速跳轉複習；每個條目都附白話、例子與學測用法。</p><div class="supplement-controls"><label>搜尋概念<input type="search" data-supplement-search value="' + esc(state.supplementQuery || '') + '" placeholder="搜尋名詞、例子或考法"></label><label>分類<select data-supplement-category>' + categoryOptions + '</select></label><div class="supplement-jumps">' + Object.keys(categories).map(function (key) { return '<button type="button" class="button secondary" data-supplement-jump="' + key + '">' + key + ' ' + categories[key] + '</button>'; }).join('') + '</div></div><div class="supplement-items">' + (filtered.length ? filtered.map(function (item) { return '<article class="supplement-item" data-supplement-item><span class="badge">' + item.category + ' ' + categories[item.category] + '</span><h3>' + esc(item.term) + '</h3><p><b>白話：</b>' + esc(item.plain) + '</p><p><b>例子：</b>' + esc(item.example) + '</p><p><b>學測怎麼用：</b>' + esc(item.use) + '</p></article>'; }).join('') : '<p class="muted">找不到符合的補充條目。</p>') + '</div></section>';
+  return '<section id="supplementary" class="supplementary-toolbox"><div class="section-title"><span class="eyebrow">🧰 社會科補充教材</span><h2>考前工具箱</h2></div><p class="supplement-intro">不熟的概念可用分類、搜尋或快速跳轉複習；每個條目都附小孩版、正式解釋、例子與學測用法。</p><div class="supplement-controls"><label>搜尋概念<input type="search" data-supplement-search value="' + esc(state.supplementQuery || '') + '" placeholder="搜尋名詞、別名、例子或考法"></label><label>分類<select data-supplement-category>' + categoryOptions + '</select></label><div class="supplement-jumps">' + Object.keys(categories).map(function (key) { return '<button type="button" class="button secondary" data-supplement-jump="' + key + '">' + key + ' ' + categories[key] + '</button>'; }).join('') + '</div></div><div class="supplement-items">' + (filtered.length ? filtered.map(function (item) { var history = item.history || {}; var historyBlock = history.time ? '<dl class="supplement-history"><div><dt>時間</dt><dd>' + esc(history.time) + '</dd></div><div><dt>主要人物／國家</dt><dd>' + esc(history.actors || '') + '</dd></div><div><dt>對立方</dt><dd>' + esc(history.opponents || '') + '</dd></div><div><dt>發生什麼</dt><dd>' + esc(history.event || '') + '</dd></div><div><dt>結果／影響</dt><dd>' + esc(history.impact || '') + '</dd></div></dl>' : ''; return '<details class="supplement-item" data-supplement-item><summary><span class="badge">' + item.category + ' ' + categories[item.category] + '</span><strong>' + esc(item.term) + '</strong></summary><div class="supplement-item-body"><p><b>小孩版：</b>' + esc(item.child || item.plain || '') + '</p><p><b>正式解釋：</b>' + esc(item.formal || item.plain || '') + '</p><p><b>例子／背景：</b>' + esc(item.example || '') + '</p><p><b>學測怎麼用：</b>' + esc(item.use || item.examUse || '') + '</p>' + (item.aliases && item.aliases.length ? '<p><b>搜尋別名：</b>' + esc(item.aliases.join('、')) + '</p>' : '') + historyBlock + '</div></details>'; }).join('') : '<p class="muted">找不到符合的補充條目。</p>') + '</div></section>';
 }
 function supplementarySection() {
   return '<section class="supplementary-mode"><div class="section-title"><span class="eyebrow">🧰 社會科補充教材</span><h2>考前工具箱</h2></div><p class="curriculum-intro">這是獨立的補充教材頁面；可搜尋、分類與快速跳轉，返回時會保留上一個課綱或歷屆試題狀態。</p>' + renderSupplementary() + '</section>';
