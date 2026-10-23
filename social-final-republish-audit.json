@@ -1,0 +1,39 @@
+{
+  "release": "SOCIAL FINAL REPUBLISH",
+  "date": "2026-10-24",
+  "docsSync": "PASS",
+  "docsParity": {
+    "requiredRuntimeFiles": "PASS",
+    "assets": "PASS",
+    "assetSourceCount": 10,
+    "assetMismatches": 0
+  },
+  "requiredAssets": {
+    "vValleyPhoto": "PASS",
+    "europeBasemap": "PASS",
+    "worldBasemap": "PASS"
+  },
+  "staticChecks": {
+    "nodeCheckApp": "PASS",
+    "gitDiffCheck": "PASS"
+  },
+  "strict": {
+    "verdict": "PASS",
+    "currentGateWeakening": 0,
+    "manifestMismatch": 0,
+    "freezeMismatch": 0,
+    "official": 326,
+    "choice": 275,
+    "constructed": 51,
+    "practice": 252,
+    "approved": 72,
+    "gold": 12,
+    "legacyP7": 0,
+    "leaks": 0
+  },
+  "publicSmoke": {
+    "status": "PENDING_PUSH"
+  },
+  "commit": null,
+  "push": null
+}
