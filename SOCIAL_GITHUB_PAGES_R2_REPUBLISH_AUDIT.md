@@ -12,7 +12,7 @@
 - Docs sync: PASS
 - Source/docs parity: PASS for `index.html`, `styles.css`, `app.js`, `data/supplementary.js`, `data/years.js`, `data/constructed-response.js`, `data/curriculum.js`, and `data/lesson-content.js`
 - Docs supplementary runtime: PASS
-- Public smoke: pending deployment after release push
+- Public smoke: PASS; public root and supplementary routes are reachable after deployment
 
 ## Supplementary smoke
 

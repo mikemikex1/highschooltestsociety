@@ -31,5 +31,5 @@
   "leaks": {"choicePreSubmit": 0, "constructedPreConfirm": 0},
   "frozenCounts": {"lessons": 36, "official": 326, "choice": 275, "constructed": 51, "practice": 252, "approved": 72, "gold": 12, "legacyP7": 0, "officialAnswerMismatch": 0},
   "strictIntegrity": {"status": "PASS", "currentGateWeakening": 0, "manifestMismatch": 0, "freezeMismatch": 0, "historicalIncidentPreserved": true},
-  "publicSmoke": "pending deployment after release push"
+  "publicSmoke": "PASS"
 }
