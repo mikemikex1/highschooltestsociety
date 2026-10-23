@@ -32,8 +32,19 @@
     "leaks": 0
   },
   "publicSmoke": {
-    "status": "PENDING_PUSH"
+    "status": "PASS",
+    "httpStatus": 200,
+    "root": "PASS",
+    "curriculum": "PASS",
+    "exam": "PASS",
+    "supplementary": "PASS",
+    "gdpQueryEntry": "PASS",
+    "app": "PASS",
+    "supplementaryData": "PASS",
+    "europeBasemap": "PASS",
+    "worldBasemap": "PASS",
+    "vValleyPhoto": "PASS"
   },
-  "commit": null,
-  "push": null
+  "commit": "c67defc",
+  "push": "PASS"
 }

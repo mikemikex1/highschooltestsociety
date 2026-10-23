@@ -19,4 +19,7 @@ Date: 2026-10-24
 
 ## Release smoke
 
-Targeted release smoke covers the required production routes and assets after publication. Public Pages availability is recorded after the push in the accompanying JSON audit.
+Targeted public smoke after publication: PASS. GitHub Pages returned HTTP 200 for the root, curriculum/exam/supplementary hash entry URLs, GDP query entry URL, `app.js`, `data/supplementary.js`, Europe and world basemaps, and the L31 V-valley photo.
+
+Release commit: `c67defc` (`release: republish final social studies runtime`).
+Push: PASS to `origin/main`.
