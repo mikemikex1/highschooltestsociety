@@ -3,8 +3,8 @@
 - Repository: `https://github.com/mikemikex1/highschooltestsociety.git`
 - Branch: `main`
 - Pages source: `main / docs`
-- Release commit: pending
-- Push result: pending
+- Release commit: `7b79e1f31b46a911ed9c0f4c7c5112070b05ac37`
+- Push result: PASS (`origin/main`)
 - Public URL: `https://mikemikex1.github.io/highschooltestsociety/`
 
 ## Release checks
@@ -20,7 +20,7 @@
 | Mobile 390 | PASS |
 | Desktop 1440 | PASS |
 | Strict integrity | PASS |
-| Public root | pending |
+| Public root | PASS |
 
 ## Frozen counts
 

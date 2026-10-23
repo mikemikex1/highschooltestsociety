@@ -3,10 +3,10 @@
   "repository": "https://github.com/mikemikex1/highschooltestsociety.git",
   "branch": "main",
   "pagesSource": "main / docs",
-  "commit": null,
-  "push": null,
+  "commit": "7b79e1f31b46a911ed9c0f4c7c5112070b05ac37",
+  "push": "PASS",
   "publicUrl": "https://mikemikex1.github.io/highschooltestsociety/",
-  "publicRootReachable": null,
+  "publicRootReachable": "PASS",
   "docs": {
     "sync": "PASS",
     "runtime": "PASS",
